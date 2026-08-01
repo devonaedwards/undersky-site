@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Undersky sources and credits</title>
+<meta name="description" content="The star data, published astronomical methods, and typefaces behind Undersky's sky maps.">
+<link rel="canonical" href="https://undersky.app/credits.html">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#160a05">
+<link rel="stylesheet" href="fonts.css">
+<style>
+:root { --bg:#160a05; --line:#4a3320; --text:#f0e7d6; --muted:#9e8f7f;
+  --accent:#e8aa4e; }
+* { box-sizing:border-box; margin:0; }
+body { background:var(--bg); color:var(--text);
+  font:300 17px/1.75 'Mulish',system-ui,sans-serif; }
+.wrap { max-width:720px; margin:0 auto; padding:0 24px 80px; }
+header { display:flex; justify-content:space-between; align-items:center;
+  padding:26px 0; }
+header img { height:52px; }
+nav a { color:var(--muted); text-decoration:none; margin-left:22px;
+  font-size:.85rem; font-weight:600; }
+nav a:hover { color:var(--accent); }
+h1,h2 { font-family:'Fraunces',Georgia,serif; font-weight:500; }
+h1 { font-size:2rem; margin:20px 0 6px; }
+h2 { font-size:1.2rem; margin:34px 0 10px; color:var(--accent); }
+p { color:var(--text); margin-bottom:14px; }
+.muted { color:var(--muted); font-size:.85rem; }
+a { color:var(--accent); }
+footer { margin-top:48px; padding-top:18px; border-top:1px solid var(--line);
+  color:var(--muted); font-size:.85rem; display:flex;
+  justify-content:space-between; flex-wrap:wrap; gap:10px; }
+footer a { color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a href="index.html"><img src="img/wordmark.svg" alt="Undersky"></a>
+    <nav>
+      <a href="faq.html">FAQ</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <h1>Sources &amp; credits</h1>
+  <p class="muted">The data and methods behind the star maps. Updated July 2026.</p>
+
+  <h2>Constellation figures</h2>
+  <p>The constellation stick figures (which stars are joined into each shape) are
+  derived from the
+  <a href="https://archive.org/details/IauConstellationsSvg">official IAU
+  constellation figures</a> by Sky &amp; Telescope (Alan MacRobert, Roger Sinnott,
+  Rick Fienberg), used under the
+  <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons
+  Attribution (CC BY)</a> licence. The line connections were recovered from the
+  CC BY figure art and re-projected onto our own star catalog; the line joining
+  Procyon and Gomeisa in Canis Minor is the common two-star asterism.</p>
+
+  <h2>Star positions and brightness</h2>
+  <p>Star coordinates and magnitudes are physical facts drawn from the Hipparcos
+  catalogue, the Yale Bright Star Catalogue, and the HYG compilation. Factual
+  astronomical measurements are not subject to copyright.</p>
+
+  <h2>Constellation boundaries</h2>
+  <p>The 88 constellations and their boundaries are the official scheme adopted by
+  the International Astronomical Union (IAU) in 1928.</p>
+
+  <h2>Planetary positions</h2>
+  <p>Planetary and lunar positions are computed from the VSOP87 planetary theory
+  (Bretagnon and Francou, Bureau des Longitudes) and standard algorithms from Jean
+  Meeus, Astronomical Algorithms. These are published scientific methods; Undersky's
+  implementation is entirely its own.</p>
+
+  <h2>Typefaces</h2>
+  <p>Undersky is set in Fraunces and Mulish, both offered under the SIL Open Font
+  License and bundled with the site so your visit is never tracked by a font host.</p>
+
+  <h2>Contact</h2>
+  <p>Questions: <a href="mailto:hello@undersky.app">hello@undersky.app</a></p>
+
+  <footer>
+    <span>&copy; 2026 Undersky, published by Pacefyx, Inc.</span>
+    <span>
+      <a href="index.html">Home</a> &nbsp;&middot;&nbsp;
+      <a href="support.html">Support</a> &nbsp;&middot;&nbsp;
+      <a href="privacy.html">Privacy</a> &nbsp;&middot;&nbsp;
+      <a href="terms.html">Terms</a>
+    </span>
+  </footer>
+</div>
+</body>
+</html>

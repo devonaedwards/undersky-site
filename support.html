@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Undersky support</title>
+<meta name="description" content="Undersky support: restoring a purchase, a wrong rising sign, deleting your data, moving to a new phone, and reporting a bug.">
+<link rel="canonical" href="https://undersky.app/support.html">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#160a05">
+<link rel="stylesheet" href="fonts.css">
+<style>
+:root { --bg:#160a05; --line:#4a3320; --text:#f0e7d6; --muted:#9e8f7f;
+  --accent:#e8aa4e; }
+* { box-sizing:border-box; margin:0; }
+body { background:var(--bg); color:var(--text);
+  font:300 17px/1.75 'Mulish',system-ui,sans-serif; }
+.wrap { max-width:720px; margin:0 auto; padding:0 24px 80px; }
+header { display:flex; justify-content:space-between; align-items:center;
+  padding:26px 0; }
+header img { height:52px; }
+nav a { color:var(--muted); text-decoration:none; margin-left:22px;
+  font-size:.85rem; font-weight:600; }
+nav a:hover { color:var(--accent); }
+h1,h2 { font-family:'Fraunces',Georgia,serif; font-weight:500; }
+h1 { font-size:2rem; margin:20px 0 6px; }
+h2 { font-size:1.1rem; margin:30px 0 8px; color:var(--accent); }
+p { margin-bottom:12px; }
+.muted { color:var(--muted); }
+a { color:var(--accent); }
+footer { margin-top:48px; padding-top:18px; border-top:1px solid var(--line);
+  color:var(--muted); font-size:.85rem; display:flex;
+  justify-content:space-between; flex-wrap:wrap; gap:10px; }
+footer a { color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a href="index.html"><img src="img/wordmark.svg" alt="Undersky"></a>
+    <nav>
+      <a href="faq.html">FAQ</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <h1>Support</h1>
+  <p class="muted">Email <a href="mailto:hello@undersky.app">hello@undersky.app</a>.
+  Common questions first:</p>
+
+  <h2>I bought something on one device. How do I get it on another?</h2>
+  <p>Open Settings inside Undersky and tap "Restore purchases" on any device
+  signed into the same Apple Account.</p>
+
+  <h2>My rising sign looks wrong.</h2>
+  <p>The rising sign depends on your exact birth time and place. A difference of
+  even twenty minutes can change it. Check the birth time first; if you used
+  "I don't know my birth time," the app uses noon and says so, which makes the
+  rising sign approximate by design. Your Sun, Moon, and planets stay accurate
+  either way.</p>
+
+  <h2>Why did a reading say it was unavailable?</h2>
+  <p>Personalized readings require a recent iPhone. On older devices, Undersky
+  still computes and shows your full chart; it just will not write the prose for
+  it. Either way, your information stays on your phone.</p>
+
+  <h2>How do I delete my data?</h2>
+  <p>Settings, then "Start over," erases everything: charts, people, and
+  everything the app has tailored to you. Deleting the app does the same. Your
+  information was only ever on your phone, so that is all it takes.</p>
+
+  <h2>Can I move my charts to a new phone?</h2>
+  <p>Undersky's data moves with a standard iPhone-to-iPhone migration or an
+  iCloud device backup, because it lives in the app's local storage like your
+  photos do. There is no Undersky account to sign into.</p>
+
+  <h2>I found a bug, or the math looks off.</h2>
+  <p>We take the math personally; the engine is tested against independent
+  astronomy. Email <a href="mailto:hello@undersky.app">hello@undersky.app</a>
+  with your device model and a screenshot, and if it involves a chart, the birth
+  date you used.</p>
+
+  <footer>
+    <span>&copy; 2026 Undersky, published by Pacefyx, Inc.</span>
+    <span>
+      <a href="index.html">Home</a> &nbsp;&middot;&nbsp;
+      <a href="faq.html">FAQ</a> &nbsp;&middot;&nbsp;
+      <a href="privacy.html">Privacy</a> &nbsp;&middot;&nbsp;
+      <a href="terms.html">Terms</a>
+    </span>
+  </footer>
+</div>
+</body>
+</html>

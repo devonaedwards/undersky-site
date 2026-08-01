@@ -1,0 +1,8 @@
+# Undersky (undersky.app) marketing site.
+# This is a public marketing site with no private data. Crawl freely,
+# including AI answer engines and retrieval bots. The app's private data
+# lives on the user's device, never on this server.
+User-agent: *
+Allow: /
+
+Sitemap: https://undersky.app/sitemap.xml

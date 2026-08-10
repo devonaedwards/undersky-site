@@ -6,6 +6,9 @@
 <title>Undersky: Horoscopes, Birth Chart, and more, completely private</title>
 <meta name="description" content="Undersky reads your birth chart, daily horoscope and synastry, tailored to you and kept on your phone. No account, no tracking, no subscriptions. In 26 languages.">
 <link rel="canonical" href="https://undersky.app/">
+<link rel="alternate" hreflang="x-default" href="https://undersky.app/">
+<link rel="alternate" hreflang="en" href="https://undersky.app/">
+<link rel="alternate" hreflang="de" href="https://undersky.app/de/">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#160a05">
 <meta name="author" content="Pacefyx, Inc.">
@@ -98,12 +101,27 @@ footer a:hover { color:var(--accent); }
         "priceCurrency": "USD",
         "description": "Free daily horoscope, natal chart, and year overview; a small one-time purchase for relationship readings; optional to-the-minute forecasts. No subscription."
       },
-      "inLanguage": ["en","ar","de","el","es","fr","he","hu","id","it","ja","nl","pl","pt","ru","sv","th","tr","uk","vi"],
+      "inLanguage": ["en","ar","de","el","es-ES","es-MX","fa","fil","fr","he","hi","hu","hy","id","it","ja","ko","nl","pl","pt-BR","ru","sv","th","tr","uk","vi","zh-Hans","zh-Hant"],
       "featureList": "Chart computed on your phone, readings tailored to you, synastry, eclipse and transit awareness, works offline, no account"
     }
   ]
 }
 </script>
+
+
+
+
+<style>
+/* Language switcher. Sits under the nav, wraps freely, never a dropdown:
+   a reader who cannot read the current page cannot be asked to operate one. */
+.langbar { border-top:1px solid var(--line); padding:14px 0 0; margin-top:4px;
+  font-size:.78rem; line-height:2; }
+.langbar a { color:var(--muted); text-decoration:none; margin-right:14px;
+  white-space:nowrap; }
+.langbar a:hover { color:var(--accent); text-decoration:underline; }
+.langbar a[aria-current="true"] { color:var(--accent); font-weight:700; }
+[dir="rtl"] .langbar a { margin-right:0; margin-left:14px; }
+</style>
 </head>
 <body>
 <div class="wrap">
@@ -116,6 +134,11 @@ footer a:hover { color:var(--accent); }
       <a href="terms.html">Terms</a>
     </nav>
   </header>
+
+<div class="langbar">
+  <a href="https://undersky.app/" lang="en" aria-current="true">English</a>
+  <a href="https://undersky.app/de/" lang="de">Deutsch</a>
+</div>
 
   <div class="hero">
     <div>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Undersky: Horoskope, Geburtschart und mehr, ganz privat</title>
+<meta name="description" content="Undersky liest dein Geburtschart, dein Tageshoroskop und deine Synastrie, ganz auf dich zugeschnitten, und bleibt auf deinem Telefon. Kein Konto, kein Tracking, keine Abos. In 26 Sprachen.">
+<link rel="canonical" href="https://undersky.app/de/">
+<link rel="alternate" hreflang="x-default" href="https://undersky.app/">
+<link rel="alternate" hreflang="en" href="https://undersky.app/">
+<link rel="alternate" hreflang="de" href="https://undersky.app/de/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#160a05">
+<meta name="author" content="Pacefyx, Inc.">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="Undersky">
+<meta property="og:url" content="https://undersky.app/de/">
+<meta property="og:title" content="Undersky: Horoskope, Geburtschart und mehr, ganz privat">
+<meta property="og:description" content="Dein Geburtschart, dein Tageshoroskop und deine Synastrie, ganz auf dich zugeschnitten und auf deinem Telefon. Kein Konto, kein Tracking, keine Abos.">
+<meta property="og:image" content="https://undersky.app/img/sky-today.png">
+<meta property="og:image:alt" content="Undersky: der Himmel heute Nacht mit den Sternbildern Krebs und Löwe">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Undersky: Horoskope, Geburtschart und mehr, ganz privat">
+<meta name="twitter:description" content="Geburtschart, Tageshoroskop und Synastrie, ganz auf dich zugeschnitten, bleibt auf deinem Telefon. Kein Konto, kein Tracking, keine Abos.">
+<meta name="twitter:image" content="https://undersky.app/img/sky-today.png">
+<link rel="stylesheet" href="/fonts.css">
+<style>
+:root { --bg:#160a05; --surface:#2a180c; --line:#4a3320; --text:#f0e7d6;
+  --muted:#9e8f7f; --accent:#e8aa4e; --teal:#50afb4; }
+* { box-sizing:border-box; margin:0; }
+body { background:var(--bg); color:var(--text);
+  font:300 17px/1.7 'Mulish',system-ui,sans-serif; }
+.wrap { max-width:960px; margin:0 auto; padding:0 24px; }
+header { display:flex; justify-content:space-between; align-items:center;
+  padding:28px 0; }
+header img { height:64px; }
+nav a { color:var(--muted); text-decoration:none; margin-left:22px;
+  font-size:.85rem; font-weight:600; }
+nav a:hover { color:var(--accent); }
+h1,h2 { font-family:'Fraunces',Georgia,serif; font-weight:500; }
+.hero { display:grid; grid-template-columns:1.1fr .9fr; gap:44px;
+  align-items:center; padding:48px 0 64px; }
+@media (max-width:760px){ .hero{grid-template-columns:1fr;} }
+.hero h1 { font-size:clamp(2rem,5vw,3.1rem); line-height:1.15; }
+.hero h1 em { font-style:italic; color:var(--accent); }
+.hero p { color:var(--muted); margin:18px 0 26px; max-width:46ch; }
+.hero img { width:100%; border-radius:18px; }
+.badge { display:inline-block; background:var(--accent); color:var(--bg);
+  font-weight:700; padding:14px 28px; border-radius:999px;
+  text-decoration:none; }
+.badge.soon { background:var(--surface); color:var(--muted);
+  border:1px solid var(--line); cursor:default; }
+.stores { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:4px; }
+.chips { margin-top:18px; }
+.chip { display:inline-block; border:1px solid var(--line); color:var(--muted);
+  border-radius:999px; padding:4px 14px; font-size:.75rem; font-weight:600;
+  margin:4px 6px 0 0; }
+section { padding:54px 0; border-top:1px solid var(--line); }
+.cols { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:28px; margin-top:30px; }
+.card { background:var(--surface); border:1px solid var(--line);
+  border-radius:16px; padding:24px; }
+.card img { width:84px; height:84px; object-fit:cover; border-radius:12px;
+  float:right; margin:0 0 10px 14px;
+  -webkit-mask-image:radial-gradient(ellipse 90% 90% at 50% 50%,#000 60%,transparent 100%); }
+.card h3 { font-family:'Fraunces',serif; font-weight:500; margin-bottom:8px; }
+.card p { color:var(--muted); font-size:.92rem; }
+.promise { text-align:center; max-width:62ch; margin:0 auto; }
+.promise h2 { font-size:1.8rem; }
+.promise p { color:var(--muted); margin-top:14px; }
+footer { border-top:1px solid var(--line); padding:30px 0 50px;
+  color:var(--muted); font-size:.8rem; display:flex; gap:24px;
+  flex-wrap:wrap; justify-content:space-between; }
+footer a { color:var(--muted); }
+footer a:hover { color:var(--accent); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://undersky.app/#publisher",
+      "name": "Pacefyx, Inc.",
+      "url": "https://undersky.app/",
+      "brand": "Undersky"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://undersky.app/#app",
+      "name": "Undersky",
+      "applicationCategory": "LifestyleApplication",
+      "operatingSystem": "iOS, Android",
+      "publisher": { "@id": "https://undersky.app/#publisher" },
+      "description": "Private westliche Astrologie: Geburtschart, Tages- und Wochenhoroskop, Synastrie und Lesungen, ganz auf dich zugeschnitten. Kein Konto, kein Tracking, keine Abos.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Kostenloses Tageshoroskop, Geburtschart und Jahresüberblick; ein kleiner einmaliger Kauf für Beziehungs-Lesungen; optionale minutengenaue Prognosen. Kein Abo."
+      },
+      "inLanguage": ["en","ar","de","el","es-ES","es-MX","fa","fil","fr","he","hi","hu","hy","id","it","ja","ko","nl","pl","pt-BR","ru","sv","th","tr","uk","vi","zh-Hans","zh-Hant"],
+      "featureList": "Chart wird auf deinem Telefon berechnet, Lesungen ganz auf dich zugeschnitten, Synastrie, Finsternis- und Transitbewusstsein, funktioniert offline, kein Konto"
+    }
+  ]
+}
+</script>
+
+
+
+
+
+<style>
+/* Language switcher. Sits under the nav, wraps freely, never a dropdown:
+   a reader who cannot read the current page cannot be asked to operate one. */
+.langbar { border-top:1px solid var(--line); padding:14px 0 0; margin-top:4px;
+  font-size:.78rem; line-height:2; }
+.langbar a { color:var(--muted); text-decoration:none; margin-right:14px;
+  white-space:nowrap; }
+.langbar a:hover { color:var(--accent); text-decoration:underline; }
+.langbar a[aria-current="true"] { color:var(--accent); font-weight:700; }
+[dir="rtl"] .langbar a { margin-right:0; margin-left:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="/img/wordmark.svg" alt="Undersky">
+    <nav>
+      <a href="/faq.html">FAQ</a>
+      <a href="/support.html">Support</a>
+      <a href="/privacy.html">Datenschutz</a>
+      <a href="/terms.html">Bedingungen</a>
+    </nav>
+  </header>
+
+<div class="langbar">
+  <a href="https://undersky.app/" lang="en">English</a>
+  <a href="https://undersky.app/de/" lang="de" aria-current="true">Deutsch</a>
+</div>
+
+
+  <div class="hero">
+    <div>
+      <h1>Astrologie, die <em>auf deinem Telefon bleibt.</em></h1>
+      <p>Dein Chart, berechnet mit echter Astronomie. Deine Lesungen, ganz auf
+      dich zugeschnitten und in deiner eigenen Sprache geschrieben. Deine
+      Geburtsdaten werden nie erfasst, und alles bleibt auf deinem Telefon.
+      Kein Konto, kein Tracking, keine Abos.</p>
+      <div class="stores">
+        <span class="badge soon">App Store · Aug. 2026</span>
+        <span class="badge soon">Google Play · Aug. 2026</span>
+      </div>
+      <div class="chips">
+        <span class="chip">Keine Anmeldung</span>
+        <span class="chip">Kein Tracking</span>
+        <span class="chip">Keine Abos</span>
+        <span class="chip">Funktioniert offline</span>
+      </div>
+    </div>
+    <img src="/img/sky-today.png" alt="Der Himmel heute Nacht mit den Sternbildern Krebs und Löwe und der totalen Sonnenfinsternis im August 2026">
+  </div>
+
+  <section>
+    <h2>Gebaut für die Menschen, die dir nahe sind</h2>
+    <div class="cols">
+      <div class="card">
+        <h3>Jede Beziehung, ihr eigener Blick</h3>
+        <p>Partnerschaft, Elternteil, Kind, Geschwister, Freundschaft,
+        Arbeitsbeziehung. Undersky ist die einzige Astrologie-App, in der eine
+        Synastrie zwischen Elternteil und Kind sich nie wie ein Date liest,
+        und Lesungen über deine Kinder bleiben immer entwicklungsorientiert,
+        das erzwingt die App selbst.</p>
+      </div>
+      <div class="card">
+        <h3>Echte Astronomie als Fundament</h3>
+        <p>Die Positionen werden mit präziser Astronomie berechnet und gegen
+        unabhängige Quellen geprüft. Finsternisse, rückläufige Phasen und
+        Rückkehr-Zyklen kommen aus dem echten Himmel, nie geraten. Die genauen
+        Gradzahlen findest du jederzeit unter Erkunden, wenn du sie sehen
+        willst.</p>
+      </div>
+      <div class="card">
+        <h3>Ein Himmel, der dich überrascht</h3>
+        <p>Deine tägliche und wöchentliche Lesung weiß, wann eine Finsternis
+        bevorsteht, wann ein Planet seine Richtung wechselt, und wann deine
+        Saturnrückkehr beginnt, weil die App den tatsächlichen Himmel
+        berechnet. Auch ruhige Tage bleiben ehrlich.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="promise">
+    <h2>Deine Daten gehören dir. Punkt.</h2>
+    <p>Deine Geburtsdaten, deine Charts und deine Lesungen bleiben auf deinem
+    Telefon, und wir erfassen sie nie. Im App Store steht als
+    Datenschutzangabe "Keine Daten erfasst", weil es für uns nichts zu
+    erfassen gibt. Ehrlich gesagt finden wir es seltsam und eklig, dass andere
+    Unternehmen das sammeln und wer weiß was damit machen. Astrologie ist
+    etwas Persönliches. Wir haben einfach eine App gebaut, die damit von
+    Anfang an so umgeht, vom allerersten Bildschirm an.</p>
+  </section>
+
+  <section class="promise">
+    <h2>Jeden Tag kostenlos. Der Rest nur, wenn du ihn willst.</h2>
+    <p>Dein Horoskop ist kostenlos, jeden Tag, für immer. Dein Geburtschart
+    und seine Lesung sind kostenlos. Der Überblick über dein Jahr ist
+    kostenlos. Willst du mehr, bleibt es einfach: Beziehungs-Lesungen sind ein
+    kleiner einmaliger Kauf, der dir gehört und mit deiner Beziehung
+    mitwächst, egal wie oft sie noch um die Sonne kreist. Präzise,
+    minutengenaue Prognosen sind da, wenn du sie für die Planung willst. Keine
+    Abos, keine Verlängerungen, nichts zu kündigen.</p>
+  </section>
+
+  <footer>
+    <span>&copy; 2026 Undersky, veröffentlicht von Pacefyx, Inc. Für Unterhaltung und Reflexion.</span>
+    <span>
+      <a href="/support.html">Support</a> &nbsp;&middot;&nbsp;
+      <a href="/privacy.html">Datenschutzerklärung</a> &nbsp;&middot;&nbsp;
+      <a href="/terms.html">Nutzungsbedingungen</a>
+    </span>
+  </footer>
+</div>
+</body>
+</html>

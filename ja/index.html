@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Undersky：ホロスコープ、出生図、そのほかも、すべて完全にプライベートに</title>
+<meta name="description" content="Undersky はあなたの出生図、デイリーホロスコープ、相性を、あなたに合わせて読み解き、スマホの中だけにとどめます。アカウント登録なし、追跡なし、サブスクリプションなし。26の言語に対応。">
+<link rel="canonical" href="https://undersky.app/ja/">
+<link rel="alternate" hreflang="x-default" href="https://undersky.app/">
+<link rel="alternate" hreflang="en" href="https://undersky.app/">
+<link rel="alternate" hreflang="de" href="https://undersky.app/de/">
+<link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/">
+<link rel="alternate" hreflang="fr" href="https://undersky.app/fr/">
+<link rel="alternate" hreflang="ja" href="https://undersky.app/ja/">
+<link rel="alternate" hreflang="ko" href="https://undersky.app/ko/">
+<link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/">
+<link rel="alternate" hreflang="ru" href="https://undersky.app/ru/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#160a05">
+<meta name="author" content="Pacefyx, Inc.">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:site_name" content="Undersky">
+<meta property="og:url" content="https://undersky.app/ja/">
+<meta property="og:title" content="Undersky：ホロスコープ、出生図、そのほかも、すべて完全にプライベートに">
+<meta property="og:description" content="あなたの出生図、デイリーホロスコープ、相性を、あなたに合わせて読み解き、スマホの中だけにとどめます。アカウント登録なし、追跡なし、サブスクリプションなし。">
+<meta property="og:image" content="https://undersky.app/img/sky-today.png">
+<meta property="og:image:alt" content="Undersky：かに座としし座が見える今夜の空">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Undersky：ホロスコープ、出生図、そのほかも、すべて完全にプライベートに">
+<meta name="twitter:description" content="出生図、デイリーホロスコープ、相性を、あなたに合わせて読み解き、スマホの中だけにとどめます。アカウント登録なし、追跡なし、サブスクリプションなし。">
+<meta name="twitter:image" content="https://undersky.app/img/sky-today.png">
+<link rel="stylesheet" href="/fonts.css">
+<style>
+:root { --bg:#160a05; --surface:#2a180c; --line:#4a3320; --text:#f0e7d6;
+  --muted:#9e8f7f; --accent:#e8aa4e; --teal:#50afb4; }
+* { box-sizing:border-box; margin:0; }
+body { background:var(--bg); color:var(--text);
+  font:300 17px/1.7 'Mulish',system-ui,sans-serif; }
+.wrap { max-width:960px; margin:0 auto; padding:0 24px; }
+header { display:flex; justify-content:space-between; align-items:center;
+  padding:28px 0; }
+header img { height:64px; }
+nav a { color:var(--muted); text-decoration:none; margin-left:22px;
+  font-size:.85rem; font-weight:600; }
+nav a:hover { color:var(--accent); }
+h1,h2 { font-family:'Fraunces',Georgia,serif; font-weight:500; }
+.hero { display:grid; grid-template-columns:1.1fr .9fr; gap:44px;
+  align-items:center; padding:48px 0 64px; }
+@media (max-width:760px){ .hero{grid-template-columns:1fr;} }
+.hero h1 { font-size:clamp(2rem,5vw,3.1rem); line-height:1.15; }
+.hero h1 em { font-style:italic; color:var(--accent); }
+.hero p { color:var(--muted); margin:18px 0 26px; max-width:46ch; }
+.hero img { width:100%; border-radius:18px; }
+.badge { display:inline-block; background:var(--accent); color:var(--bg);
+  font-weight:700; padding:14px 28px; border-radius:999px;
+  text-decoration:none; }
+.badge.soon { background:var(--surface); color:var(--muted);
+  border:1px solid var(--line); cursor:default; }
+.stores { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:4px; }
+.chips { margin-top:18px; }
+.chip { display:inline-block; border:1px solid var(--line); color:var(--muted);
+  border-radius:999px; padding:4px 14px; font-size:.75rem; font-weight:600;
+  margin:4px 6px 0 0; }
+section { padding:54px 0; border-top:1px solid var(--line); }
+.cols { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:28px; margin-top:30px; }
+.card { background:var(--surface); border:1px solid var(--line);
+  border-radius:16px; padding:24px; }
+.card img { width:84px; height:84px; object-fit:cover; border-radius:12px;
+  float:right; margin:0 0 10px 14px;
+  -webkit-mask-image:radial-gradient(ellipse 90% 90% at 50% 50%,#000 60%,transparent 100%); }
+.card h3 { font-family:'Fraunces',serif; font-weight:500; margin-bottom:8px; }
+.card p { color:var(--muted); font-size:.92rem; }
+.promise { text-align:center; max-width:62ch; margin:0 auto; }
+.promise h2 { font-size:1.8rem; }
+.promise p { color:var(--muted); margin-top:14px; }
+footer { border-top:1px solid var(--line); padding:30px 0 50px;
+  color:var(--muted); font-size:.8rem; display:flex; gap:24px;
+  flex-wrap:wrap; justify-content:space-between; }
+footer a { color:var(--muted); }
+footer a:hover { color:var(--accent); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://undersky.app/#publisher",
+      "name": "Pacefyx, Inc.",
+      "url": "https://undersky.app/",
+      "brand": "Undersky"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://undersky.app/#app",
+      "name": "Undersky",
+      "applicationCategory": "LifestyleApplication",
+      "operatingSystem": "iOS, Android",
+      "publisher": { "@id": "https://undersky.app/#publisher" },
+      "description": "プライベートな西洋占星術：出生図、デイリーとウィークリーのホロスコープ、相性、そしてあなたに合わせた読み解き。アカウント登録なし、追跡なし、サブスクリプションなし。",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "デイリーホロスコープ、出生図、一年の見通しは無料。相性の読み解きは少額の一回限りの購入。分単位のフォーキャストはオプションで利用可能。サブスクリプションなし。"
+      },
+      "inLanguage": ["en","ar","de","el","es-ES","es-MX","fa","fil","fr","he","hi","hu","hy","id","it","ja","ko","nl","pl","pt-BR","ru","sv","th","tr","uk","vi","zh-Hans","zh-Hant"],
+      "featureList": "チャートはスマホの中で計算、読み解きはあなたに合わせて、相性、日食とトランジットの把握、オフラインでも使える、アカウント不要"
+    }
+  ]
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+/* Language switcher. Sits under the nav, wraps freely, never a dropdown:
+   a reader who cannot read the current page cannot be asked to operate one. */
+.langbar { border-top:1px solid var(--line); padding:14px 0 0; margin-top:4px;
+  font-size:.78rem; line-height:2; }
+.langbar a { color:var(--muted); text-decoration:none; margin-right:14px;
+  white-space:nowrap; }
+.langbar a:hover { color:var(--accent); text-decoration:underline; }
+.langbar a[aria-current="true"] { color:var(--accent); font-weight:700; }
+[dir="rtl"] .langbar a { margin-right:0; margin-left:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="/img/wordmark.svg" alt="Undersky">
+    <nav>
+      <a href="/faq.html">FAQ</a>
+      <a href="/support.html">サポート</a>
+      <a href="/privacy.html">プライバシー</a>
+      <a href="/terms.html">利用規約</a>
+    </nav>
+  </header>
+
+<div class="langbar">
+  <a href="https://undersky.app/" lang="en">English</a>
+  <a href="https://undersky.app/de/" lang="de">Deutsch</a>
+  <a href="https://undersky.app/es-mx/" lang="es-MX">Español (México)</a>
+  <a href="https://undersky.app/fr/" lang="fr">Français</a>
+  <a href="https://undersky.app/ja/" lang="ja" aria-current="true">日本語</a>
+  <a href="https://undersky.app/ko/" lang="ko">한국어</a>
+  <a href="https://undersky.app/pt-br/" lang="pt-BR">Português (Brasil)</a>
+  <a href="https://undersky.app/ru/" lang="ru">Русский</a>
+</div>
+
+
+  <div class="hero">
+    <div>
+      <h1>占星術は、<em>あなたのスマホの中にとどまります。</em></h1>
+      <p>あなたのチャートは、本物の天文学で計算されます。あなたの読み解きは、
+      あなたに合わせて、あなた自身の言語で綴られます。あなたの出生情報が収集
+      されることは決してなく、すべてはスマホの中にとどまります。アカウント
+      登録なし、追跡なし、サブスクリプションなし。</p>
+      <div class="stores">
+        <span class="badge soon">App Store・2026年8月</span>
+        <span class="badge soon">Google Play・2026年8月</span>
+      </div>
+      <div class="chips">
+        <span class="chip">登録不要</span>
+        <span class="chip">追跡なし</span>
+        <span class="chip">サブスクリプションなし</span>
+        <span class="chip">オフラインでも使える</span>
+      </div>
+    </div>
+    <img src="/img/sky-today.png" alt="かに座としし座が見える今夜の空。2026年8月の皆既日食とともに">
+  </div>
+
+  <section>
+    <h2>大切な人たちのために</h2>
+    <div class="cols">
+      <div class="card">
+        <h3>関係ごとに、それぞれのレンズを</h3>
+        <p>パートナー、親、子ども、きょうだい、友人、同僚。Undersky は、親子
+        の相性が恋愛の相性のように読めることが決してなく、お子さんについて
+        の読み解きがいつも発達の視点にとどまる、唯一の占星術アプリです。そ
+        れを守っているのは、アプリ自身です。</p>
+      </div>
+      <div class="card">
+        <h3>その土台にあるのは、本物の天文学</h3>
+        <p>惑星の位置は精密な天文学で計算され、独立した情報源と照らし合わせ
+        て確かめられます。日食・月食、逆行、リターンは、すべて実際の空から
+        導かれ、当て推量では決してありません。正確な度数は、見たいときにい
+        つでも「探索」の中にあります。</p>
+      </div>
+      <div class="card">
+        <h3>あなたを驚かせる空</h3>
+        <p>デイリーとウィークリーの読み解きは、日食・月食が近づいていること
+        も、惑星が逆行に転じることも、あなたのサターンリターンが始まること
+        も知っています。アプリが実際の空を計算しているからです。静かな日
+        も、正直に伝えます。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="promise">
+    <h2>あなたのデータは、あなたのもの。それだけです。</h2>
+    <p>あなたの出生情報も、チャートも、読み解きも、すべてスマホの中にとどま
+    り、私たちが収集することは決してありません。App Store のプライバシーラ
+    ベルには「データの収集なし」と表示されます。私たちが集めるものが、何も
+    ないからです。正直に言うと、ほかの会社がこれを集めて、何に使っているの
+    かもわからないというのは、奇妙で気味が悪いことだと思っています。占星術
+    は、個人的なものです。私たちはただ、それにふさわしいアプリを、最初の画
+    面から設計として作っただけです。</p>
+  </section>
+
+  <section class="promise">
+    <h2>毎日は無料。その先は、望むときだけ。</h2>
+    <p>あなたのホロスコープは、毎日、ずっと無料です。出生図とその読み解きも
+    無料です。一年の見通しも無料です。もっと欲しくなったときも、仕組みはシ
+    ンプルなまま。相性の読み解きは少額の一回限りの購入で、ずっとあなたのも
+    のになり、その関係が太陽を何周しようと、関係とともに育っていきます。分
+    単位まで精密な今年の流れは、計画を立てたいときにいつでも使えます。サブ
+    スクリプションなし、更新なし、解約もいりません。</p>
+  </section>
+
+  <footer>
+    <span>&copy; 2026 Undersky（Pacefyx, Inc. 発行）。エンターテインメント
+    と内省のために。</span>
+    <span>
+      <a href="/support.html">サポート</a> &nbsp;&middot;&nbsp;
+      <a href="/privacy.html">プライバシーポリシー</a> &nbsp;&middot;&nbsp;
+      <a href="/terms.html">利用規約</a>
+    </span>
+  </footer>
+</div>
+</body>
+</html>

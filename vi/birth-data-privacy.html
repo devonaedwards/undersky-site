@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dữ liệu ngày sinh của bạn có an toàn trong ứng dụng chiêm tinh không? Cách kiểm tra và những gì cần để ý</title>
+<meta name="description" content="Ngày, giờ và nơi sinh của bạn là loại dữ liệu bạn không bao giờ đổi được. Đây là lý do vì sao ứng dụng chiêm tinh là một trường hợp đặc biệt, cách kiểm tra quyền riêng tư của bất kỳ ứng dụng nào chỉ trong ba mươi giây, và điều duy nhất mà nhãn của cửa hàng ứng dụng sẽ không nói cho bạn biết.">
+<link rel="canonical" href="https://undersky.app/vi/birth-data-privacy.html">
+<link rel="alternate" hreflang="x-default" href="https://undersky.app/birth-data-privacy.html">
+<link rel="alternate" hreflang="en" href="https://undersky.app/birth-data-privacy.html">
+<link rel="alternate" hreflang="ar" href="https://undersky.app/ar/birth-data-privacy.html">
+<link rel="alternate" hreflang="de" href="https://undersky.app/de/birth-data-privacy.html">
+<link rel="alternate" hreflang="el" href="https://undersky.app/el/birth-data-privacy.html">
+<link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/birth-data-privacy.html">
+<link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/birth-data-privacy.html">
+<link rel="alternate" hreflang="fa" href="https://undersky.app/fa/birth-data-privacy.html">
+<link rel="alternate" hreflang="fil" href="https://undersky.app/fil/birth-data-privacy.html">
+<link rel="alternate" hreflang="fr" href="https://undersky.app/fr/birth-data-privacy.html">
+<link rel="alternate" hreflang="he" href="https://undersky.app/he/birth-data-privacy.html">
+<link rel="alternate" hreflang="hi" href="https://undersky.app/hi/birth-data-privacy.html">
+<link rel="alternate" hreflang="hu" href="https://undersky.app/hu/birth-data-privacy.html">
+<link rel="alternate" hreflang="hy" href="https://undersky.app/hy/birth-data-privacy.html">
+<link rel="alternate" hreflang="id" href="https://undersky.app/id/birth-data-privacy.html">
+<link rel="alternate" hreflang="it" href="https://undersky.app/it/birth-data-privacy.html">
+<link rel="alternate" hreflang="ja" href="https://undersky.app/ja/birth-data-privacy.html">
+<link rel="alternate" hreflang="ko" href="https://undersky.app/ko/birth-data-privacy.html">
+<link rel="alternate" hreflang="nl" href="https://undersky.app/nl/birth-data-privacy.html">
+<link rel="alternate" hreflang="pl" href="https://undersky.app/pl/birth-data-privacy.html">
+<link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/birth-data-privacy.html">
+<link rel="alternate" hreflang="ru" href="https://undersky.app/ru/birth-data-privacy.html">
+<link rel="alternate" hreflang="sv" href="https://undersky.app/sv/birth-data-privacy.html">
+<link rel="alternate" hreflang="th" href="https://undersky.app/th/birth-data-privacy.html">
+<link rel="alternate" hreflang="tr" href="https://undersky.app/tr/birth-data-privacy.html">
+<link rel="alternate" hreflang="uk" href="https://undersky.app/uk/birth-data-privacy.html">
+<link rel="alternate" hreflang="vi" href="https://undersky.app/vi/birth-data-privacy.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/birth-data-privacy.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/birth-data-privacy.html">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#160a05">
+<meta name="author" content="Pacefyx, Inc.">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="Undersky">
+<meta property="og:url" content="https://undersky.app/vi/birth-data-privacy.html">
+<meta property="og:title" content="Dữ liệu ngày sinh của bạn có an toàn trong ứng dụng chiêm tinh không? Cách kiểm tra và những gì cần để ý">
+<meta property="og:description" content="Vì sao dữ liệu ngày sinh là một trường hợp đặc biệt, cách kiểm tra quyền riêng tư của bất kỳ ứng dụng chiêm tinh nào trong ba mươi giây, và điều duy nhất mà nhãn của cửa hàng ứng dụng sẽ không nói cho bạn biết.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dữ liệu ngày sinh của bạn có an toàn trong ứng dụng chiêm tinh không?">
+<meta name="twitter:description" content="Cách kiểm tra quyền riêng tư của bất kỳ ứng dụng chiêm tinh nào trong ba mươi giây, và điều duy nhất mà nhãn của cửa hàng ứng dụng sẽ không nói cho bạn biết.">
+<link rel="stylesheet" href="/fonts.css">
+<style>
+:root { --bg:#160a05; --surface:#2a180c; --line:#4a3320; --text:#f0e7d6;
+  --muted:#9e8f7f; --accent:#e8aa4e; }
+* { box-sizing:border-box; margin:0; }
+body { background:var(--bg); color:var(--text);
+  font:300 17px/1.75 'Mulish',system-ui,sans-serif; }
+.wrap { max-width:760px; margin:0 auto; padding:0 24px 80px; }
+header { display:flex; justify-content:space-between; align-items:center;
+  padding:26px 0; }
+header img { height:52px; }
+nav a { color:var(--muted); text-decoration:none; margin-left:22px;
+  font-size:.85rem; font-weight:600; }
+nav a:hover { color:var(--accent); }
+h1,h2,h3 { font-family:'Fraunces',Georgia,serif; font-weight:500; }
+h1 { font-size:2.05rem; line-height:1.2; margin:24px 0 8px; }
+h2 { font-size:1.32rem; margin:40px 0 12px; color:var(--accent); }
+h3 { font-size:1.05rem; margin:26px 0 6px; }
+p { margin-bottom:15px; }
+ul { margin:0 0 15px 20px; } li { margin-bottom:7px; }
+a { color:var(--accent); }
+.lede { font-size:1.12rem; }
+.muted { color:var(--muted); font-size:.9rem; }
+blockquote { border-left:3px solid var(--accent); margin:22px 0;
+  padding:2px 0 2px 18px; font-family:'Fraunces',Georgia,serif;
+  font-size:1.14rem; line-height:1.5; }
+.box { background:var(--surface); border:1px solid var(--line);
+  border-radius:14px; padding:18px 20px; margin:22px 0; }
+footer { margin-top:52px; padding-top:18px; border-top:1px solid var(--line);
+  color:var(--muted); font-size:.8rem; display:flex; gap:20px;
+  flex-wrap:wrap; justify-content:space-between; }
+footer a { color:var(--muted); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Dữ liệu ngày sinh của bạn có an toàn trong ứng dụng chiêm tinh không? Cách kiểm tra và những gì cần để ý",
+      "datePublished": "2026-08-10",
+      "dateModified": "2026-08-10",
+      "inLanguage": "vi",
+      "author": { "@type": "Organization", "name": "Pacefyx, Inc." },
+      "publisher": { "@type": "Organization", "name": "Pacefyx, Inc." },
+      "mainEntityOfPage": "https://undersky.app/vi/birth-data-privacy.html"
+    },
+    {
+      "@type": "HowTo",
+      "name": "Cách kiểm tra quyền riêng tư của ứng dụng chiêm tinh trước khi cài đặt",
+      "totalTime": "PT1M",
+      "step": [
+        { "@type": "HowToStep", "name": "Mở trang trên cửa hàng ứng dụng", "text": "Mở trang của ứng dụng trên App Store hoặc Google Play trước khi cài đặt." },
+        { "@type": "HowToStep", "name": "Tìm mục quyền riêng tư", "text": "Tìm mục Quyền riêng tư của ứng dụng trên App Store, hoặc An toàn dữ liệu trên Google Play. Đây là những gì nhà phát triển đã khai báo với cửa hàng về chính ứng dụng của họ." },
+        { "@type": "HowToStep", "name": "Đọc hai danh sách quan trọng nhất", "text": "Đọc mục Dữ liệu dùng để theo dõi bạn và Dữ liệu liên kết với bạn. Một ứng dụng không thu thập gì cả sẽ chỉ hiện một dòng ghi Dữ Liệu Không Được Thu Thập." },
+        { "@type": "HowToStep", "name": "Kiểm tra xem ứng dụng có cần tài khoản không", "text": "Nếu ứng dụng bắt buộc phải có tài khoản, thì đương nhiên đã có một bản sao thông tin của bạn nằm trên máy chủ của người khác." },
+        { "@type": "HowToStep", "name": "Đọc chính sách quyền riêng tư để tìm dịch vụ bên ngoài", "text": "Nhãn của cửa hàng không có mục nào dành riêng cho việc gửi nội dung của bạn cho một dịch vụ bên ngoài để xử lý. Hãy tìm trong chính sách quyền riêng tư của ứng dụng xem có nêu tên bên thứ ba nào không, và kiểm tra xem ứng dụng có hoạt động được khi tắt internet hay không." }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Cho ứng dụng chiêm tinh biết giờ sinh của bạn có an toàn không?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Điều này phụ thuộc hoàn toàn vào việc ứng dụng giữ giờ sinh đó trên điện thoại của bạn hay gửi nó cho một công ty. Ngày, giờ và nơi sinh của bạn không thể đổi được về sau, nên đáng để kiểm tra trước khi bạn nhập vào. Hãy đọc mục quyền riêng tư trên trang cửa hàng của ứng dụng, và kiểm tra xem ứng dụng có cần tài khoản hay không." }
+        },
+        {
+          "@type": "Question",
+          "name": "Vì sao dữ liệu ngày sinh nhạy cảm hơn những dữ liệu khác trong ứng dụng?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Bạn có thể đổi mật khẩu. Bạn không thể đổi nơi và lúc bạn sinh ra, và những chi tiết đó đúng về bạn suốt đời. Một ứng dụng chiêm tinh rồi cũng sẽ nắm được bạn đang hẹn hò với ai, gia đình bạn gồm những ai và bạn đang lo lắng điều gì." }
+        },
+        {
+          "@type": "Question",
+          "name": "Dữ liệu ngày sinh của tôi sẽ ra sao nếu công ty làm ứng dụng bị bán?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Nói chung, những gì một công ty đã thu thập cũng là một phần của những gì bên mua nhận được. Ứng dụng chiêm tinh cũng được mua bán như mọi phần mềm khác, và Co-Star đã được Midjourney mua lại vào năm 2026. Nếu một công ty chưa bao giờ nhận dữ liệu của bạn, họ không thể bán nó, và không ai mua được nó, kể cả khi mua lại toàn bộ công ty." }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhãn quyền riêng tư của ứng dụng chiêm tinh có cho biết ứng dụng có dùng dịch vụ bên ngoài để viết bài đọc không?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Không. Nhãn của cửa hàng không có mục nào dành cho việc gửi nội dung của bạn cho một dịch vụ bên ngoài để viết, nên một nhãn có thể trông rất gọn gàng dù ứng dụng có làm việc này hay không. Hãy đọc chính sách quyền riêng tư của ứng dụng để tìm tên các bên thứ ba, và kiểm tra xem ứng dụng có hoạt động được khi tắt internet hay không." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+<style>
+/* Language switcher. Sits under the nav, wraps freely, never a dropdown:
+   a reader who cannot read the current page cannot be asked to operate one. */
+.langbar { border-top:1px solid var(--line); padding:14px 0 0; margin-top:4px;
+  font-size:.78rem; line-height:2; }
+.langbar a { color:var(--muted); text-decoration:none; margin-right:14px;
+  white-space:nowrap; }
+.langbar a:hover { color:var(--accent); text-decoration:underline; }
+.langbar a[aria-current="true"] { color:var(--accent); font-weight:700; }
+[dir="rtl"] .langbar a { margin-right:0; margin-left:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <a href="/index.html"><img src="/img/wordmark.svg" alt="Undersky"></a>
+    <nav>
+      <a href="/best-astrology-apps.html">So sánh ứng dụng</a>
+      <a href="/faq.html">Câu hỏi thường gặp</a>
+      <a href="/privacy.html">Quyền riêng tư</a>
+    </nav>
+  </header>
+
+<div class="langbar">
+  <a href="https://undersky.app/birth-data-privacy.html" lang="en">English</a>
+  <a href="https://undersky.app/ar/birth-data-privacy.html" lang="ar">العربية</a>
+  <a href="https://undersky.app/de/birth-data-privacy.html" lang="de">Deutsch</a>
+  <a href="https://undersky.app/el/birth-data-privacy.html" lang="el">Ελληνικά</a>
+  <a href="https://undersky.app/es-es/birth-data-privacy.html" lang="es-ES">Español (España)</a>
+  <a href="https://undersky.app/es-mx/birth-data-privacy.html" lang="es-MX">Español (México)</a>
+  <a href="https://undersky.app/fa/birth-data-privacy.html" lang="fa">فارسی</a>
+  <a href="https://undersky.app/fil/birth-data-privacy.html" lang="fil">Filipino</a>
+  <a href="https://undersky.app/fr/birth-data-privacy.html" lang="fr">Français</a>
+  <a href="https://undersky.app/he/birth-data-privacy.html" lang="he">עברית</a>
+  <a href="https://undersky.app/hi/birth-data-privacy.html" lang="hi">हिन्दी</a>
+  <a href="https://undersky.app/hu/birth-data-privacy.html" lang="hu">Magyar</a>
+  <a href="https://undersky.app/hy/birth-data-privacy.html" lang="hy">Հայերեն</a>
+  <a href="https://undersky.app/id/birth-data-privacy.html" lang="id">Bahasa Indonesia</a>
+  <a href="https://undersky.app/it/birth-data-privacy.html" lang="it">Italiano</a>
+  <a href="https://undersky.app/ja/birth-data-privacy.html" lang="ja">日本語</a>
+  <a href="https://undersky.app/ko/birth-data-privacy.html" lang="ko">한국어</a>
+  <a href="https://undersky.app/nl/birth-data-privacy.html" lang="nl">Nederlands</a>
+  <a href="https://undersky.app/pl/birth-data-privacy.html" lang="pl">Polski</a>
+  <a href="https://undersky.app/pt-br/birth-data-privacy.html" lang="pt-BR">Português (Brasil)</a>
+  <a href="https://undersky.app/ru/birth-data-privacy.html" lang="ru">Русский</a>
+  <a href="https://undersky.app/sv/birth-data-privacy.html" lang="sv">Svenska</a>
+  <a href="https://undersky.app/th/birth-data-privacy.html" lang="th">ไทย</a>
+  <a href="https://undersky.app/tr/birth-data-privacy.html" lang="tr">Türkçe</a>
+  <a href="https://undersky.app/uk/birth-data-privacy.html" lang="uk">Українська</a>
+  <a href="https://undersky.app/vi/birth-data-privacy.html" lang="vi" aria-current="true">Tiếng Việt</a>
+  <a href="https://undersky.app/zh-hans/birth-data-privacy.html" lang="zh-Hans">简体中文</a>
+  <a href="https://undersky.app/zh-hant/birth-data-privacy.html" lang="zh-Hant">繁體中文</a>
+</div>
+
+  <h1>Dữ liệu ngày sinh của bạn có an toàn trong ứng dụng chiêm tinh không?</h1>
+  <p class="muted">Đăng ngày 10 tháng 8 năm 2026 bởi Pacefyx, Inc. Chúng tôi làm ra Undersky, một ứng dụng
+  chiêm tinh, nên chuyện này có liên quan trực tiếp đến chúng tôi. Mọi điều dưới đây bạn đều có thể tự kiểm chứng, không cần tin lời chúng tôi.</p>
+
+  <p class="lede"><b>Tất cả chỉ phụ thuộc vào một điều: ứng dụng giữ chi tiết ngày sinh của bạn
+  trên điện thoại, hay gửi nó cho một công ty. Bạn có thể biết được điều này chỉ trong khoảng
+  ba mươi giây, trước khi cài bất cứ thứ gì.</b></p>
+
+  <h2>Vì sao dữ liệu ngày sinh quan trọng hơn những dữ liệu khác trong ứng dụng?</h2>
+  <p><b>Bạn có thể đổi mật khẩu. Bạn không thể đổi nơi và lúc bạn sinh ra.</b> Ba chi
+  tiết đó đúng về bạn suốt đời, và khi gộp lại, chúng chỉ đích danh một người khá chính xác.</p>
+
+  <p>Phần cá nhân nằm ở những gì được xây dựng thêm lên trên đó. Một ứng dụng chiêm tinh
+  rồi cũng sẽ nắm được bạn đang hẹn hò với ai, gia đình bạn gồm những ai, bạn đang lo lắng
+  điều gì, và bạn đang hy vọng điều gì. Hầu hết ứng dụng chỉ biết bạn đã bấm vào đâu. Một
+  ứng dụng chiêm tinh biết bạn đang sợ điều gì.</p>
+
+  <h2>Dữ liệu ngày sinh của bạn sẽ ra sao nếu công ty bị bán?</h2>
+  <p><b>Nói chung, những gì một công ty đã thu thập cũng là một phần của những gì bên mua
+  nhận được.</b> Ứng dụng cũng được mua bán như mọi thứ khác, và khi đăng ký tài khoản, bạn
+  không thể biết ai sẽ sở hữu ứng dụng đó sau năm năm nữa.</p>
+
+  <p>Co-Star đã được Midjourney mua lại vào năm 2026. Đây không phải lời chê trách bên nào
+  cả. Đó chỉ là chuyện thường xảy ra với các công ty, và là ví dụ rõ nhất cho việc vì sao
+  câu hỏi "bạn có tin công ty này không" yếu hơn nhiều so với vẻ ngoài của nó.</p>
+
+  <blockquote>Nếu một công ty chưa bao giờ nhận dữ liệu của bạn, họ không thể bán nó. Không
+  ai mua được nó. Kể cả khi mua lại toàn bộ công ty.</blockquote>
+
+  <p>Đó chính là toàn bộ lý lẽ cho việc giữ loại dữ liệu này trên điện thoại của riêng bạn.
+  Đây không phải là lời hứa về việc một công ty định tử tế đến đâu. Đây là chuyện gì là
+  khả thi.</p>
+
+  <h2>Làm sao để tự kiểm tra quyền riêng tư của một ứng dụng chiêm tinh?</h2>
+  <p><b>Mở trang của ứng dụng trên cửa hàng và đọc mục quyền riêng tư, đó chính là những gì
+  nhà phát triển đã khai báo với Apple hoặc Google về ứng dụng của họ.</b> Việc này chỉ mất
+  khoảng ba mươi giây, và là bằng chứng đáng tin hơn bất cứ điều gì trên một trang tiếp thị,
+  kể cả trang này.</p>
+  <ul>
+    <li>Tìm mục <b>Quyền riêng tư của ứng dụng</b> trên App Store, hoặc <b>An toàn dữ liệu</b> trên Google Play.</li>
+    <li>Đọc mục <b>Dữ liệu dùng để theo dõi bạn</b> và <b>Dữ liệu liên kết với bạn</b>. Hai mục này quan trọng nhất.</li>
+    <li>Một ứng dụng không thu thập gì cả sẽ chỉ hiện một dòng: <b>Dữ Liệu Không Được Thu Thập</b>.</li>
+    <li>Kiểm tra xem ứng dụng có cần tài khoản không. Có tài khoản nghĩa là có một bản sao của bạn nằm trên máy chủ của người khác.</li>
+    <li>Thử tắt internet rồi mở ứng dụng lên. Nếu ứng dụng vẫn vẽ được bản đồ sao của bạn, nghĩa là việc tính toán được làm ngay trên điện thoại.</li>
+  </ul>
+
+  <div class="box">
+    <h3>Điều mà nhãn quyền riêng tư sẽ không nói cho bạn biết</h3>
+    <p>Không có mục nhãn nào dành cho việc <b>"ứng dụng này gửi bài đọc của bạn cho một
+    dịch vụ bên ngoài để viết."</b> Vì vậy một nhãn quyền riêng tư có thể trông rất gọn gàng
+    dù ứng dụng có làm việc này hay không.</p>
+    <p>Một số ứng dụng chiêm tinh có nói rõ trong chính sách quyền riêng tư rằng họ gửi bản
+    đồ sao hoặc câu hỏi của bạn cho một công ty bên ngoài để tạo ra văn bản. Nếu điều này
+    quan trọng với bạn, hãy đọc kỹ chính sách và tìm tên các bên thứ ba được nêu ra. Cách
+    kiểm tra nhanh nhất là tắt internet: một ứng dụng cần kết nối mạng để viết bài đọc cho
+    bạn nghĩa là đang gửi thứ gì đó đi đâu đó.</p>
+  </div>
+
+  <h2>Một ứng dụng chiêm tinh thật sự riêng tư thì trông như thế nào?</h2>
+  <p><b>Không tài khoản, không cần ghi danh, và hoạt động được khi tắt internet.</b> Ba
+  điều này gộp lại rất khó giả được, vì một ứng dụng không thể lén gửi dữ liệu về nếu nó
+  vẫn chạy tốt trên máy bay.</p>
+
+  <p>Undersky được xây dựng theo đúng cách đó. Bản đồ sao của bạn được tính toán ngay trên
+  điện thoại, chúng tôi không có máy chủ nào cả, và nhãn quyền riêng tư trên App Store ghi
+  "Dữ Liệu Không Được Thu Thập". Dữ liệu ngày sinh của bạn có giá trị, và chúng tôi nghĩ
+  nó có giá trị nhất khi ở trong tay bạn. Chúng tôi sẽ không bán nó, và không thể bán nó,
+  đó là cách chúng tôi thiết kế ra ứng dụng.</p>
+
+  <p>Một lời hứa về quyền riêng tư mà không nói rõ giới hạn thì chỉ là quảng cáo, nên đây
+  là giới hạn của chúng tôi. Dữ liệu của bạn ở lại trên điện thoại và chúng tôi không bao
+  giờ thu thập nó. Nếu bạn sao lưu điện thoại, bản sao lưu đó là của riêng bạn và có thể
+  gồm cả dữ liệu của ứng dụng, đó là cách bạn chuyển sang điện thoại mới. Nếu bạn chia sẻ
+  một bài đọc, bản sao đó sẽ đi đến nơi bạn gửi. Nếu bạn gửi email nhờ chúng tôi hỗ trợ,
+  chúng tôi sẽ có những gì bạn đã viết.</p>
+
+  <p class="muted">Điều này cũng đúng với hai ứng dụng còn lại của chúng tôi,
+  <a href="https://muhura.app/">Muhura</a> cho chiêm tinh Vệ Đà và
+  <a href="https://gilsung.app/">Gilsung</a> cho Tứ Trụ và saju.</p>
+
+  <h2>Câu hỏi thường gặp</h2>
+  <h3>Cho ứng dụng chiêm tinh biết giờ sinh của bạn có an toàn không?</h3>
+  <p>Điều này phụ thuộc vào việc ứng dụng giữ giờ sinh đó trên điện thoại của bạn hay gửi
+  nó cho một công ty. Ngày, giờ và nơi sinh của bạn không thể đổi được về sau, nên đáng bỏ
+  ra ba mươi giây để kiểm tra trước khi bạn nhập vào.</p>
+  <h3>Ứng dụng chiêm tinh có bán dữ liệu của bạn không?</h3>
+  <p>Có ứng dụng thu thập rất nhiều, có ứng dụng không thu thập gì cả, và nhãn quyền riêng
+  tư trên cửa hàng là nơi bạn tìm ra sự thật cho từng ứng dụng cụ thể. Hãy đọc mục
+  <b>Dữ liệu dùng để theo dõi bạn</b> và <b>Dữ liệu liên kết với bạn</b> trên trang cửa
+  hàng của ứng dụng đó, thay vì tin vào những gì một bài viết nào đó nói, kể cả bài này.</p>
+  <h3>Ứng dụng chiêm tinh có cần biết chính xác giờ sinh của bạn không?</h3>
+  <p>Ứng dụng cần giờ sinh chính xác để tính cung Mọc và các nhà, vì hai thứ này đổi theo
+  từng vài phút. Ứng dụng không cần giờ chính xác để tính cung Mặt Trời hay hầu hết vị trí
+  các hành tinh. Một ứng dụng tính toán ngay trên điện thoại có thể dùng giờ sinh chính
+  xác của bạn mà không cần gửi giờ đó đi đâu cả.</p>
+  <h3>Tôi có thể dùng ứng dụng chiêm tinh mà không cần tài khoản không?</h3>
+  <p>Được, dù hầu hết các ứng dụng nổi tiếng đều yêu cầu tài khoản. Undersky không có tài
+  khoản, không cần ghi danh. Nếu một ứng dụng bắt buộc phải có tài khoản, thì đương nhiên
+  thông tin của bạn đang nằm trên máy chủ của ứng dụng đó.</p>
+
+  <h2>Nguồn tham khảo</h2>
+  <ul>
+    <li><a href="https://support.apple.com/en-us/102188">Apple: Báo cáo quyền riêng tư của ứng dụng và nhãn quyền riêng tư</a></li>
+    <li><a href="https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/">TechCrunch: Midjourney mua lại Co-Star (24 tháng 7 năm 2026)</a></li>
+    <li><a href="https://surfshark.com/research/chart/astrology-apps-privacy">Surfshark: nghiên cứu về quyền riêng tư của các ứng dụng chiêm tinh</a></li>
+    <li><a href="/privacy.html">Chính sách quyền riêng tư của Undersky</a>, nêu đầy đủ các giới hạn ở trên</li>
+    <li><a href="/best-astrology-apps.html">Bảng so sánh các ứng dụng chiêm tinh chính của chúng tôi</a></li>
+  </ul>
+
+  <footer>
+    <span>&copy; 2026 Undersky, phát hành bởi Pacefyx, Inc. Chỉ nhằm mục đích giải trí và tự chiêm nghiệm.</span>
+    <span>
+      <a href="/index.html">Trang chủ</a> &nbsp;&middot;&nbsp;
+      <a href="/support.html">Hỗ trợ</a> &nbsp;&middot;&nbsp;
+      <a href="/privacy.html">Chính sách quyền riêng tư</a> &nbsp;&middot;&nbsp;
+      <a href="/terms.html">Điều khoản sử dụng</a>
+    </span>
+  </footer>
+
+</div>
+</body>
+</html>

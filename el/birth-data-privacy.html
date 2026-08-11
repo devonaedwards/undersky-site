@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Είναι ασφαλή τα δεδομένα γέννησής σου σε μια εφαρμογή αστρολογίας; Πώς να το ελέγξεις, και τι να προσέξεις</title>
+<meta name="description" content="Η ημερομηνία, η ώρα και ο τόπος γέννησής σου είναι δεδομένα που δεν αλλάζουν ποτέ. Δες γιατί οι εφαρμογές αστρολογίας είναι ειδική περίπτωση, πώς ελέγχεις το απόρρητο κάθε εφαρμογής σε τριάντα δευτερόλεπτα, και το ένα πράγμα που δεν σου λένε οι ετικέτες του κάθε καταστήματος.">
+<link rel="canonical" href="https://undersky.app/el/birth-data-privacy.html">
+<link rel="alternate" hreflang="x-default" href="https://undersky.app/birth-data-privacy.html">
+<link rel="alternate" hreflang="en" href="https://undersky.app/birth-data-privacy.html">
+<link rel="alternate" hreflang="ar" href="https://undersky.app/ar/birth-data-privacy.html">
+<link rel="alternate" hreflang="de" href="https://undersky.app/de/birth-data-privacy.html">
+<link rel="alternate" hreflang="el" href="https://undersky.app/el/birth-data-privacy.html">
+<link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/birth-data-privacy.html">
+<link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/birth-data-privacy.html">
+<link rel="alternate" hreflang="fr" href="https://undersky.app/fr/birth-data-privacy.html">
+<link rel="alternate" hreflang="hi" href="https://undersky.app/hi/birth-data-privacy.html">
+<link rel="alternate" hreflang="id" href="https://undersky.app/id/birth-data-privacy.html">
+<link rel="alternate" hreflang="it" href="https://undersky.app/it/birth-data-privacy.html">
+<link rel="alternate" hreflang="ja" href="https://undersky.app/ja/birth-data-privacy.html">
+<link rel="alternate" hreflang="ko" href="https://undersky.app/ko/birth-data-privacy.html">
+<link rel="alternate" hreflang="nl" href="https://undersky.app/nl/birth-data-privacy.html">
+<link rel="alternate" hreflang="pl" href="https://undersky.app/pl/birth-data-privacy.html">
+<link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/birth-data-privacy.html">
+<link rel="alternate" hreflang="ru" href="https://undersky.app/ru/birth-data-privacy.html">
+<link rel="alternate" hreflang="sv" href="https://undersky.app/sv/birth-data-privacy.html">
+<link rel="alternate" hreflang="th" href="https://undersky.app/th/birth-data-privacy.html">
+<link rel="alternate" hreflang="tr" href="https://undersky.app/tr/birth-data-privacy.html">
+<link rel="alternate" hreflang="uk" href="https://undersky.app/uk/birth-data-privacy.html">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#160a05">
+<meta name="author" content="Pacefyx, Inc.">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="el_GR">
+<meta property="og:site_name" content="Undersky">
+<meta property="og:url" content="https://undersky.app/el/birth-data-privacy.html">
+<meta property="og:title" content="Είναι ασφαλή τα δεδομένα γέννησής σου σε μια εφαρμογή αστρολογίας; Πώς να το ελέγξεις, και τι να προσέξεις">
+<meta property="og:description" content="Γιατί τα δεδομένα γέννησης είναι ειδική περίπτωση, πώς ελέγχεις το απόρρητο κάθε εφαρμογής αστρολογίας σε τριάντα δευτερόλεπτα, και το ένα πράγμα που δεν σου λένε οι ετικέτες του κάθε καταστήματος.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Είναι ασφαλή τα δεδομένα γέννησής σου σε μια εφαρμογή αστρολογίας;">
+<meta name="twitter:description" content="Πώς ελέγχεις το απόρρητο κάθε εφαρμογής αστρολογίας σε τριάντα δευτερόλεπτα, και το ένα πράγμα που δεν σου λένε οι ετικέτες του κάθε καταστήματος.">
+<link rel="stylesheet" href="/fonts.css">
+<style>
+:root { --bg:#160a05; --surface:#2a180c; --line:#4a3320; --text:#f0e7d6;
+  --muted:#9e8f7f; --accent:#e8aa4e; }
+* { box-sizing:border-box; margin:0; }
+body { background:var(--bg); color:var(--text);
+  font:300 17px/1.75 'Mulish',system-ui,sans-serif; }
+.wrap { max-width:760px; margin:0 auto; padding:0 24px 80px; }
+header { display:flex; justify-content:space-between; align-items:center;
+  padding:26px 0; }
+header img { height:52px; }
+nav a { color:var(--muted); text-decoration:none; margin-left:22px;
+  font-size:.85rem; font-weight:600; }
+nav a:hover { color:var(--accent); }
+h1,h2,h3 { font-family:'Fraunces',Georgia,serif; font-weight:500; }
+h1 { font-size:2.05rem; line-height:1.2; margin:24px 0 8px; }
+h2 { font-size:1.32rem; margin:40px 0 12px; color:var(--accent); }
+h3 { font-size:1.05rem; margin:26px 0 6px; }
+p { margin-bottom:15px; }
+ul { margin:0 0 15px 20px; } li { margin-bottom:7px; }
+a { color:var(--accent); }
+.lede { font-size:1.12rem; }
+.muted { color:var(--muted); font-size:.9rem; }
+blockquote { border-left:3px solid var(--accent); margin:22px 0;
+  padding:2px 0 2px 18px; font-family:'Fraunces',Georgia,serif;
+  font-size:1.14rem; line-height:1.5; }
+.box { background:var(--surface); border:1px solid var(--line);
+  border-radius:14px; padding:18px 20px; margin:22px 0; }
+footer { margin-top:52px; padding-top:18px; border-top:1px solid var(--line);
+  color:var(--muted); font-size:.8rem; display:flex; gap:20px;
+  flex-wrap:wrap; justify-content:space-between; }
+footer a { color:var(--muted); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Είναι ασφαλή τα δεδομένα γέννησής σου σε μια εφαρμογή αστρολογίας; Πώς να το ελέγξεις, και τι να προσέξεις",
+      "datePublished": "2026-08-10",
+      "dateModified": "2026-08-10",
+      "inLanguage": "el",
+      "author": { "@type": "Organization", "name": "Pacefyx, Inc." },
+      "publisher": { "@type": "Organization", "name": "Pacefyx, Inc." },
+      "mainEntityOfPage": "https://undersky.app/el/birth-data-privacy.html"
+    },
+    {
+      "@type": "HowTo",
+      "name": "Πώς ελέγχεις το απόρρητο μιας εφαρμογής αστρολογίας πριν την εγκαταστήσεις",
+      "totalTime": "PT1M",
+      "step": [
+        { "@type": "HowToStep", "name": "Άνοιξε τη σελίδα του καταστήματος", "text": "Άνοιξε τη σελίδα της εφαρμογής στο App Store ή στο Google Play πριν την εγκαταστήσεις." },
+        { "@type": "HowToStep", "name": "Βρες την ενότητα απορρήτου", "text": "Βρες το Απόρρητο εφαρμογής στο App Store, ή την Ασφάλεια δεδομένων στο Google Play. Είναι αυτό που δήλωσε ο ίδιος ο προγραμματιστής στο κατάστημα για τη δική του εφαρμογή." },
+        { "@type": "HowToStep", "name": "Διάβασε τις δύο λίστες που έχουν σημασία", "text": "Διάβασε τα Δεδομένα που χρησιμοποιούνται για την ιχνηλάτησή σου και τα Δεδομένα που συνδέονται με εσένα. Μια εφαρμογή που δεν συλλέγει τίποτα δείχνει μία μόνο γραμμή: Δεν συλλέγονται δεδομένα." },
+        { "@type": "HowToStep", "name": "Έλεγξε αν χρειάζεται λογαριασμό", "text": "Αν η εφαρμογή απαιτεί λογαριασμό, υπάρχει εξ ορισμού ένα αντίγραφο των στοιχείων σου στον υπολογιστή κάποιου άλλου." },
+        { "@type": "HowToStep", "name": "Διάβασε την πολιτική απορρήτου για εξωτερικές υπηρεσίες", "text": "Οι ετικέτες του καταστήματος δεν έχουν κατηγορία για την αποστολή του περιεχομένου σου σε εξωτερική υπηρεσία για να γραφτεί. Ψάξε στην πολιτική απορρήτου της εφαρμογής για ονομαστικά τρίτα μέρη, και έλεγξε αν η εφαρμογή δουλεύει χωρίς ίντερνετ." }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Είναι ασφαλές να δώσεις την ώρα γέννησής σου σε μια εφαρμογή αστρολογίας;",
+          "acceptedAnswer": { "@type": "Answer", "text": "Εξαρτάται εξ ολοκλήρου από το αν η εφαρμογή κρατά αυτή την ώρα στο κινητό σου ή τη στέλνει σε μια εταιρεία. Η ημερομηνία, η ώρα και ο τόπος γέννησής σου δεν αλλάζουν αργότερα, οπότε αξίζει να το ελέγξεις πριν τα πληκτρολογήσεις. Διάβασε την ενότητα απορρήτου στη σελίδα της εφαρμογής στο κατάστημα, και έλεγξε αν η εφαρμογή χρειάζεται λογαριασμό." }
+        },
+        {
+          "@type": "Question",
+          "name": "Γιατί τα δεδομένα γέννησης είναι πιο ευαίσθητα από άλλα δεδομένα εφαρμογών;",
+          "acceptedAnswer": { "@type": "Answer", "text": "Έναν κωδικό πρόσβασης μπορείς να τον αλλάξεις. Το πού και πότε γεννήθηκες όχι, και αυτά τα στοιχεία ισχύουν για σένα σε όλη σου τη ζωή. Μια εφαρμογή αστρολογίας καταλήγει επίσης να ξέρει με ποιον βγαίνεις, ποια είναι η οικογένειά σου και τι σε ανησυχεί." }
+        },
+        {
+          "@type": "Question",
+          "name": "Τι γίνεται με τα δεδομένα γέννησής μου αν πουληθεί η εταιρεία της εφαρμογής;",
+          "acceptedAnswer": { "@type": "Answer", "text": "Ό,τι έχει συλλέξει μια εταιρεία, γενικά περνά και αυτό σε όποιον την αγοράζει. Οι εφαρμογές αστρολογίας αγοράζονται και πωλούνται όπως κάθε άλλο λογισμικό, και το Co-Star αγοράστηκε από τη Midjourney το 2026. Αν μια εταιρεία δεν έλαβε ποτέ τα δεδομένα σου, δεν μπορεί να τα πουλήσει, και κανείς δεν μπορεί να τα αγοράσει, ούτε καν αγοράζοντας ολόκληρη την εταιρεία." }
+        },
+        {
+          "@type": "Question",
+          "name": "Σου λέει η ετικέτα απορρήτου μιας εφαρμογής αστρολογίας αν χρησιμοποιεί εξωτερική υπηρεσία για να γράψει τις αναγνώσεις;",
+          "acceptedAnswer": { "@type": "Answer", "text": "Όχι. Δεν υπάρχει κατηγορία ετικέτας καταστήματος για την αποστολή του περιεχομένου σου σε εξωτερική υπηρεσία για να γραφτεί, οπότε μια ετικέτα μπορεί να δείχνει μετριοπαθής είτε το κάνει η εφαρμογή είτε όχι. Διάβασε την πολιτική απορρήτου της εφαρμογής για ονομαστικά τρίτα μέρη, και έλεγξε αν η εφαρμογή δουλεύει με κλειστό το ίντερνετ." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<style>
+/* Language switcher. Sits under the nav, wraps freely, never a dropdown:
+   a reader who cannot read the current page cannot be asked to operate one. */
+.langbar { border-top:1px solid var(--line); padding:14px 0 0; margin-top:4px;
+  font-size:.78rem; line-height:2; }
+.langbar a { color:var(--muted); text-decoration:none; margin-right:14px;
+  white-space:nowrap; }
+.langbar a:hover { color:var(--accent); text-decoration:underline; }
+.langbar a[aria-current="true"] { color:var(--accent); font-weight:700; }
+[dir="rtl"] .langbar a { margin-right:0; margin-left:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <a href="/index.html"><img src="/img/wordmark.svg" alt="Undersky"></a>
+    <nav>
+      <a href="/best-astrology-apps.html">Σύγκριση εφαρμογών</a>
+      <a href="/faq.html">FAQ</a>
+      <a href="/privacy.html">Απόρρητο</a>
+    </nav>
+  </header>
+
+<div class="langbar">
+  <a href="https://undersky.app/birth-data-privacy.html" lang="en">English</a>
+  <a href="https://undersky.app/ar/birth-data-privacy.html" lang="ar">العربية</a>
+  <a href="https://undersky.app/de/birth-data-privacy.html" lang="de">Deutsch</a>
+  <a href="https://undersky.app/el/birth-data-privacy.html" lang="el" aria-current="true">Ελληνικά</a>
+  <a href="https://undersky.app/es-es/birth-data-privacy.html" lang="es-ES">Español (España)</a>
+  <a href="https://undersky.app/es-mx/birth-data-privacy.html" lang="es-MX">Español (México)</a>
+  <a href="https://undersky.app/fr/birth-data-privacy.html" lang="fr">Français</a>
+  <a href="https://undersky.app/hi/birth-data-privacy.html" lang="hi">हिन्दी</a>
+  <a href="https://undersky.app/id/birth-data-privacy.html" lang="id">Bahasa Indonesia</a>
+  <a href="https://undersky.app/it/birth-data-privacy.html" lang="it">Italiano</a>
+  <a href="https://undersky.app/ja/birth-data-privacy.html" lang="ja">日本語</a>
+  <a href="https://undersky.app/ko/birth-data-privacy.html" lang="ko">한국어</a>
+  <a href="https://undersky.app/nl/birth-data-privacy.html" lang="nl">Nederlands</a>
+  <a href="https://undersky.app/pl/birth-data-privacy.html" lang="pl">Polski</a>
+  <a href="https://undersky.app/pt-br/birth-data-privacy.html" lang="pt-BR">Português (Brasil)</a>
+  <a href="https://undersky.app/ru/birth-data-privacy.html" lang="ru">Русский</a>
+  <a href="https://undersky.app/sv/birth-data-privacy.html" lang="sv">Svenska</a>
+  <a href="https://undersky.app/th/birth-data-privacy.html" lang="th">ไทย</a>
+  <a href="https://undersky.app/tr/birth-data-privacy.html" lang="tr">Türkçe</a>
+  <a href="https://undersky.app/uk/birth-data-privacy.html" lang="uk">Українська</a>
+</div>
+
+  <h1>Είναι ασφαλή τα δεδομένα γέννησής σου σε μια εφαρμογή αστρολογίας;</h1>
+  <p class="muted">Δημοσιεύτηκε στις 10 Αυγούστου 2026 από την Pacefyx, Inc. Φτιάχνουμε το Undersky, μια εφαρμογή
+  αστρολογίας, οπότε έχουμε κι εμείς συμφέρον σε αυτό. Όλα όσα ακολουθούν μπορείς να τα ελέγξεις μόνος σου,
+  χωρίς να μας πιστέψεις στα λόγια.</p>
+
+  <p class="lede"><b>Εξαρτάται από ένα πράγμα: αν η εφαρμογή κρατά τα στοιχεία γέννησής σου στο κινητό σου, ή τα
+  στέλνει σε μια εταιρεία. Το μαθαίνεις σε περίπου τριάντα δευτερόλεπτα, πριν καν εγκαταστήσεις οτιδήποτε.</b></p>
+
+  <h2>Γιατί τα δεδομένα γέννησης έχουν μεγαλύτερη σημασία από άλλα δεδομένα εφαρμογών;</h2>
+  <p><b>Έναν κωδικό πρόσβασης μπορείς να τον αλλάξεις. Το πού και πότε γεννήθηκες
+  όχι.</b> Αυτά τα τρία στοιχεία ισχύουν για σένα σε όλη σου τη ζωή, και μαζί
+  δείχνουν προς ένα συγκεκριμένο πρόσωπο με μεγάλη ακρίβεια.</p>
+
+  <p>Ό,τι χτίζεται πάνω σε αυτά είναι το προσωπικό κομμάτι. Μια εφαρμογή αστρολογίας
+  καταλήγει να ξέρει με ποιον βγαίνεις, ποια είναι η οικογένειά σου, τι σε ανησυχεί
+  και τι ελπίζεις. Οι περισσότερες εφαρμογές ξέρουν τι πάτησες. Μια εφαρμογή
+  αστρολογίας ξέρει τι φοβάσαι.</p>
+
+  <h2>Τι γίνεται με τα δεδομένα γέννησής σου αν πουληθεί η εταιρεία;</h2>
+  <p><b>Ό,τι έχει συλλέξει μια εταιρεία, συνήθως περνά και αυτό στον αγοραστή.</b>
+  Οι εφαρμογές αγοράζονται και πωλούνται όπως οτιδήποτε άλλο, και όταν εγγράφεσαι
+  δεν μπορείς να ξέρεις ποιος θα κατέχει την εφαρμογή σε πέντε χρόνια.</p>
+
+  <p>Το Co-Star αγοράστηκε από τη Midjourney το 2026. Αυτό δεν είναι μομφή για καμία
+  από τις δύο. Είναι απλώς αυτό που συμβαίνει στις εταιρείες, και είναι το πιο
+  καθαρό παράδειγμα για το γιατί το «εμπιστεύεσαι αυτή την εταιρεία;» είναι πιο
+  αδύναμη ερώτηση απ' όσο φαίνεται.</p>
+
+  <blockquote>Αν μια εταιρεία δεν έλαβε ποτέ τα δεδομένα σου, δεν μπορεί να τα
+  πουλήσει. Κανείς δεν μπορεί να τα αγοράσει. Ούτε καν αγοράζοντας ολόκληρη την
+  εταιρεία.</blockquote>
+
+  <p>Αυτό είναι όλο το επιχείρημα για να κρατάς κάτι τέτοιο στο δικό σου κινητό.
+  Δεν είναι υπόσχεση για το πόσο καλή προτίθεται να είναι μια εταιρεία. Είναι
+  θέμα του τι είναι εφικτό.</p>
+
+  <h2>Πώς ελέγχεις μόνος σου το απόρρητο μιας εφαρμογής αστρολογίας;</h2>
+  <p><b>Άνοιξε τη σελίδα της εφαρμογής στο κατάστημα και διάβασε την ενότητα
+  απορρήτου, δηλαδή αυτό που δήλωσε ο ίδιος ο προγραμματιστής στην Apple ή στην
+  Google για τη δική του εφαρμογή.</b> Θέλει περίπου τριάντα δευτερόλεπτα, και
+  είναι καλύτερη απόδειξη από οτιδήποτε σε μια ιστοσελίδα μάρκετινγκ,
+  συμπεριλαμβανομένης αυτής εδώ.</p>
+  <ul>
+    <li>Βρες το <b>Απόρρητο εφαρμογής</b> στο App Store, ή την <b>Ασφάλεια δεδομένων</b> στο Google Play.</li>
+    <li>Διάβασε τα <b>Δεδομένα που χρησιμοποιούνται για την ιχνηλάτησή σου</b> και τα <b>Δεδομένα που συνδέονται με εσένα</b>. Αυτά τα δύο μετράνε περισσότερο.</li>
+    <li>Μια εφαρμογή που δεν συλλέγει τίποτα δείχνει μία μόνο γραμμή: <b>Δεν συλλέγονται δεδομένα</b>.</li>
+    <li>Έλεγξε αν χρειάζεται λογαριασμό. Ένας λογαριασμός σημαίνει ένα αντίγραφό σου στον υπολογιστή κάποιου άλλου.</li>
+    <li>Δοκίμασέ την με το ίντερνετ κλειστό. Μια εφαρμογή που συνεχίζει να σχεδιάζει τον χάρτη σου κάνει τη δουλειά μέσα στο κινητό σου.</li>
+  </ul>
+
+  <div class="box">
+    <h3>Το πράγμα που δεν σου λένε οι ετικέτες</h3>
+    <p>Δεν υπάρχει κατηγορία ετικέτας για το <b>«αυτή η εφαρμογή στέλνει την
+    ανάγνωσή σου σε μια εξωτερική υπηρεσία για να γραφτεί»</b>. Έτσι μια ετικέτα
+    απορρήτου μπορεί να δείχνει μετριοπαθής είτε το κάνει αυτό η εφαρμογή είτε
+    όχι.</p>
+    <p>Κάποιες εφαρμογές αστρολογίας αναφέρουν πράγματι στην πολιτική απορρήτου
+    τους ότι στέλνουν τον χάρτη σου ή τις ερωτήσεις σου σε μια εξωτερική εταιρεία
+    για να παράγει το κείμενο. Αν αυτό έχει σημασία για σένα, διάβασε την πολιτική
+    και ψάξε για ονομαστικά τρίτα μέρη. Η δοκιμή με κλειστό ίντερνετ είναι ο πιο
+    γρήγορος έλεγχος: μια εφαρμογή που χρειάζεται σύνδεση για να γράψει την
+    ανάγνωσή σου στέλνει κάτι κάπου.</p>
+  </div>
+
+  <h2>Πώς μοιάζει στην πράξη μια ιδιωτική εφαρμογή αστρολογίας;</h2>
+  <p><b>Χωρίς λογαριασμό, χωρίς εγγραφή, και δουλεύει με κλειστό το ίντερνετ.</b>
+  Αυτά τα τρία μαζί είναι δύσκολο να προσποιηθούν, γιατί μια εφαρμογή δεν μπορεί
+  να στέλνει κρυφά δεδομένα σπίτι αν συνεχίζει να δουλεύει και σε ένα αεροπλάνο.</p>
+
+  <p>Το Undersky είναι φτιαγμένο έτσι. Ο χάρτης σου υπολογίζεται μέσα στο κινητό
+  σου, δεν υπάρχει δικός μας διακομιστής, και η ετικέτα απορρήτου του App Store
+  λέει «Δεν συλλέγονται δεδομένα». Τα δεδομένα γέννησής σου αξίζουν κάτι, και
+  εμείς πιστεύουμε πως αξίζουν περισσότερο σε σένα. Δεν θα τα πουλήσουμε, και δεν
+  μπορούμε να τα πουλήσουμε, εκ σχεδιασμού.</p>
+
+  <p>Μια υπόσχεση απορρήτου χωρίς όρια είναι απλώς μάρκετινγκ, οπότε ορίστε οι
+  δικοί μας. Τα δεδομένα σου μένουν στο κινητό σου και εμείς ποτέ δεν τα
+  συλλέγουμε. Αν κάνεις αντίγραφο ασφαλείας του κινητού σου, αυτό το αντίγραφο
+  είναι δικό σου και μπορεί να περιλαμβάνει τα δεδομένα της εφαρμογής, κι έτσι
+  μεταφέρεσαι σε νέο κινητό. Αν μοιραστείς μια ανάγνωση, εκείνο το αντίγραφο
+  πηγαίνει όπου το στείλεις εσύ. Αν μας στείλεις email για βοήθεια, έχουμε ό,τι
+  έγραψες.</p>
+
+  <p class="muted">Το ίδιο ισχύει και για τις άλλες δύο εφαρμογές μας, το
+  <a href="https://muhura.app/">Muhura</a> για τη βεδική αστρολογία και το
+  <a href="https://gilsung.app/">Gilsung</a> για τους Τέσσερις Πυλώνες και το saju.</p>
+
+  <h2>Συχνές ερωτήσεις</h2>
+  <h3>Είναι ασφαλές να δώσεις την ώρα γέννησής σου σε μια εφαρμογή αστρολογίας;</h3>
+  <p>Εξαρτάται από το αν η εφαρμογή κρατά αυτή την ώρα στο κινητό σου ή τη στέλνει
+  σε μια εταιρεία. Η ημερομηνία, η ώρα και ο τόπος γέννησής σου δεν αλλάζουν
+  αργότερα, οπότε αξίζουν τριάντα δευτερόλεπτα ελέγχου πριν τα πληκτρολογήσεις.</p>
+  <h3>Πουλάνε τα δεδομένα σου οι εφαρμογές αστρολογίας;</h3>
+  <p>Κάποιες συλλέγουν πολλά και κάποιες τίποτα, και η ετικέτα απορρήτου του
+  καταστήματος είναι εκεί που το μαθαίνεις για κάθε συγκεκριμένη εφαρμογή.
+  Διάβασε τα <b>Δεδομένα που χρησιμοποιούνται για την ιχνηλάτησή σου</b> και τα
+  <b>Δεδομένα που συνδέονται με εσένα</b> στη σελίδα της στο κατάστημα, αντί να
+  βασιστείς σε ό,τι λέει οποιοδήποτε άρθρο, ακόμα και αυτό εδώ.</p>
+  <h3>Χρειάζεται μια εφαρμογή αστρολογίας την ακριβή ώρα γέννησής σου;</h3>
+  <p>Τη χρειάζεται για τον ωροσκόπο σου και τους οίκους σου, που αλλάζουν κάθε
+  λίγα λεπτά. Δεν τη χρειάζεται για το ζώδιο του Ήλιου σου ή για τις περισσότερες
+  θέσεις πλανητών. Μια εφαρμογή που κάνει τους υπολογισμούς μέσα στο κινητό σου
+  μπορεί να χρησιμοποιήσει την ακριβή σου ώρα χωρίς αυτή η ώρα να πάει πουθενά.</p>
+  <h3>Μπορώ να χρησιμοποιήσω μια εφαρμογή αστρολογίας χωρίς λογαριασμό;</h3>
+  <p>Ναι, αν και οι περισσότερες γνωστές ζητούν έναν. Το Undersky δεν έχει
+  λογαριασμό ούτε εγγραφή. Αν μια εφαρμογή απαιτεί λογαριασμό, τα στοιχεία σου
+  βρίσκονται εξ ορισμού στους διακομιστές της.</p>
+
+  <h2>Πηγές</h2>
+  <ul>
+    <li><a href="https://support.apple.com/en-us/102188">Apple: Αναφορά απορρήτου εφαρμογών και ετικέτες απορρήτου</a></li>
+    <li><a href="https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/">TechCrunch: Η Midjourney εξαγόρασε το Co-Star (24 Ιουλίου 2026)</a></li>
+    <li><a href="https://surfshark.com/research/chart/astrology-apps-privacy">Surfshark: μελέτη απορρήτου εφαρμογών αστρολογίας</a></li>
+    <li><a href="/privacy.html">Η πολιτική απορρήτου του Undersky</a>, όπου αναφέρονται πλήρως τα παραπάνω όρια</li>
+    <li><a href="/best-astrology-apps.html">Η σύγκρισή μας για τις βασικές εφαρμογές αστρολογίας</a></li>
+  </ul>
+
+  <footer>
+    <span>&copy; 2026 Undersky, από την Pacefyx, Inc. Για ψυχαγωγία και στοχασμό.</span>
+    <span>
+      <a href="/index.html">Αρχική</a> &nbsp;&middot;&nbsp;
+      <a href="/support.html">Υποστήριξη</a> &nbsp;&middot;&nbsp;
+      <a href="/privacy.html">Πολιτική απορρήτου</a> &nbsp;&middot;&nbsp;
+      <a href="/terms.html">Όροι χρήσης</a>
+    </span>
+  </footer>
+
+</div>
+</body>
+</html>

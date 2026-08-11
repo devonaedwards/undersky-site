@@ -204,6 +204,8 @@ footer a:hover { color:var(--accent); }
 
 
 
+
+
 <style>
 /* Language switcher. Sits under the nav, wraps freely, never a dropdown:
    a reader who cannot read the current page cannot be asked to operate one. */
@@ -223,6 +225,15 @@ footer a:hover { color:var(--accent); }
 [dir="rtl"] .card img { float:left; margin:0 14px 10px 0; }
 [dir="rtl"] .chip { margin:4px 0 0 6px; }
 [dir="rtl"] .hero h1 em { font-style:normal; }
+/* The editorial pages indent lists with a physical left margin, so in Arabic,
+   Hebrew and Farsi every bullet list hangs off the wrong edge. Found by the
+   RTL check on the Arabic privacy page; the index pages never tripped it
+   because they carry no prose lists. Blockquotes have the same problem: their
+   accent rule is a left border, which in RTL belongs on the right. */
+[dir="rtl"] ul, [dir="rtl"] ol { margin-left:0; margin-right:20px; }
+[dir="rtl"] blockquote { border-left:0; border-right:3px solid var(--accent);
+  padding:2px 18px 2px 0; }
+[dir="rtl"] th, [dir="rtl"] td { text-align:right; }
 </style>
 </head>
 <body>

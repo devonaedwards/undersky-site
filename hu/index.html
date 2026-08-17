@@ -52,6 +52,8 @@
 <meta name="twitter:title" content="Undersky: horoszkópok, radix és más, teljesen privát módon">
 <meta name="twitter:description" content="Radix, napi horoszkóp és szinasztria, rád szabva, a telefonodon maradva. Fiók nélkül, nyomkövetés nélkül, előfizetés nélkül.">
 <meta name="twitter:image" content="https://undersky.app/img/sky-today.png">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="930">
 <link rel="stylesheet" href="/fonts.css">
 <style>
 :root { --bg:#160a05; --surface:#2a180c; --line:#4a3320; --text:#f0e7d6;
@@ -91,7 +93,8 @@ section { padding:54px 0; border-top:1px solid var(--line); }
   border-radius:16px; padding:24px; }
 .card img { width:84px; height:84px; object-fit:cover; border-radius:12px;
   float:right; margin:0 0 10px 14px;
-  -webkit-mask-image:radial-gradient(ellipse 90% 90% at 50% 50%,#000 60%,transparent 100%); }
+  -webkit-mask-image:radial-gradient(ellipse 90% 90% at 50% 50%,#000
+  60%,transparent 100%); }
 .card h3 { font-family:'Fraunces',serif; font-weight:500; margin-bottom:8px; }
 .card p { color:var(--muted); font-size:.92rem; }
 .promise { text-align:center; max-width:62ch; margin:0 auto; }
@@ -116,6 +119,8 @@ footer a:hover { color:var(--accent); }
     },
     {
       "@type": "SoftwareApplication",
+      "installUrl": "https://play.google.com/store/apps/details?id=app.undersky&hl=hu",
+      "sameAs": ["https://play.google.com/store/apps/details?id=app.undersky&hl=hu"],
       "@id": "https://undersky.app/#app",
       "name": "Undersky",
       "applicationCategory": "LifestyleApplication",
@@ -126,9 +131,10 @@ footer a:hover { color:var(--accent); }
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "USD",
-        "description": "Ingyenes napi horoszkóp, radix és éves áttekintés; kis egyszeri vásárlás a kapcsolati olvasatokért; opcionális, percre pontos előrejelzések. Előfizetés nélkül."
+        "description": "Ingyenes napi horoszkóp, radix és egy első pillantás az évedre; kis egyszeri vásárlás a kapcsolati olvasatokért; opcionális, percre pontos előrejelzések. Előfizetés nélkül."
       },
-      "inLanguage": ["en","ar","de","el","es-ES","es-MX","fa","fil","fr","he","hi","hu","hy","id","it","ja","ko","nl","pl","pt-BR","ru","sv","th","tr","uk","vi","zh-Hans","zh-Hant"],
+      "inLanguage":
+      ["en","ar","de","el","es-ES","es-MX","fa","fil","fr","he","hi","hu","hy","id","it","ja","ko","nl","pl","pt-BR","ru","sv","th","tr","uk","vi","zh-Hans","zh-Hant"],
       "featureList": "A képlet a telefonodon számolódik, az olvasatok rád vannak szabva, szinasztria, fogyatkozás- és tranzitfigyelem, offline is működik, fiók nélkül"
     }
   ]
@@ -242,7 +248,7 @@ footer a:hover { color:var(--accent); }
       nélkül.</p>
       <div class="stores">
         <span class="badge soon">App Store</span>
-        <span class="badge soon">Google Play</span>
+        <a class="badge" href="https://play.google.com/store/apps/details?id=app.undersky&amp;hl=hu">Google Play</a>
       </div>
       <div class="chips">
         <span class="chip">Regisztráció nélkül</span>
@@ -251,7 +257,7 @@ footer a:hover { color:var(--accent); }
         <span class="chip">Offline is működik</span>
       </div>
     </div>
-    <img src="/img/sky-today.png" alt="A mai éjszaka égboltja a Rák és az Oroszlán csillagképpel, valamint a 2026. augusztusi teljes napfogyatkozással">
+    <img src="/img/sky-today.png" alt="A mai éjszaka égboltja a Rák és az Oroszlán csillagképpel, valamint a teljes napfogyatkozással">
   </div>
 
   <section>
@@ -297,7 +303,7 @@ footer a:hover { color:var(--accent); }
   <section class="promise">
     <h2>Minden nap ingyenes. A többi csak akkor, ha szeretnéd.</h2>
     <p>A horoszkópod ingyenes, minden nap, örökre. A radixod és annak olvasata
-    ingyenes. Az éved áttekintése ingyenes. Ha többet szeretnél, egyszerű
+    ingyenes. Egy első pillantás az évedre ingyenes. Ha többet szeretnél, egyszerű
     marad: a kapcsolati olvasatok egy kis egyszeri vásárlással a tieid
     maradnak, és úgy nőnek, ahogy a kapcsolatod is, akárhányszor kerüli is
     körbe még a Napot. A percre pontos, precíz előrejelzések ott vannak, ha

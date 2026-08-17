@@ -52,6 +52,8 @@
 <meta name="twitter:title" content="Undersky: horoskop, födelsehoroskop och mer, helt privat">
 <meta name="twitter:description" content="Födelsehoroskop, dagshoroskop och synastri, helt anpassade efter dig och sparade på din telefon. Inget konto, ingen spårning, inga abonnemang.">
 <meta name="twitter:image" content="https://undersky.app/img/sky-today.png">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="930">
 <link rel="stylesheet" href="/fonts.css">
 <style>
 :root { --bg:#160a05; --surface:#2a180c; --line:#4a3320; --text:#f0e7d6;
@@ -116,6 +118,8 @@ footer a:hover { color:var(--accent); }
     },
     {
       "@type": "SoftwareApplication",
+      "installUrl": "https://play.google.com/store/apps/details?id=app.undersky&hl=sv",
+      "sameAs": ["https://play.google.com/store/apps/details?id=app.undersky&hl=sv"],
       "@id": "https://undersky.app/#app",
       "name": "Undersky",
       "applicationCategory": "LifestyleApplication",
@@ -242,7 +246,7 @@ footer a:hover { color:var(--accent); }
       Inget konto, ingen spårning, inga abonnemang.</p>
       <div class="stores">
         <span class="badge soon">App Store</span>
-        <span class="badge soon">Google Play</span>
+        <a class="badge" href="https://play.google.com/store/apps/details?id=app.undersky&amp;hl=sv">Google Play</a>
       </div>
       <div class="chips">
         <span class="chip">Ingen registrering</span>
@@ -251,7 +255,7 @@ footer a:hover { color:var(--accent); }
         <span class="chip">Fungerar offline</span>
       </div>
     </div>
-    <img src="/img/sky-today.png" alt="Natthimlen i kväll med stjärnbilderna Kräftan och Lejonet och den totala solförmörkelsen i augusti 2026">
+    <img src="/img/sky-today.png" alt="Natthimlen i kväll med stjärnbilderna Kräftan och Lejonet och den totala solförmörkelsen">
   </div>
 
   <section>

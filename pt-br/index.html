@@ -52,6 +52,8 @@
 <meta name="twitter:title" content="Undersky: horóscopos, mapa astral e muito mais, totalmente privado">
 <meta name="twitter:description" content="Mapa astral, horóscopo diário e sinastria, feitos sob medida para você e guardados no seu celular. Sem conta, sem rastreamento, sem assinaturas.">
 <meta name="twitter:image" content="https://undersky.app/img/sky-today.png">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="930">
 <link rel="stylesheet" href="/fonts.css">
 <style>
 :root { --bg:#160a05; --surface:#2a180c; --line:#4a3320; --text:#f0e7d6;
@@ -91,7 +93,8 @@ section { padding:54px 0; border-top:1px solid var(--line); }
   border-radius:16px; padding:24px; }
 .card img { width:84px; height:84px; object-fit:cover; border-radius:12px;
   float:right; margin:0 0 10px 14px;
-  -webkit-mask-image:radial-gradient(ellipse 90% 90% at 50% 50%,#000 60%,transparent 100%); }
+  -webkit-mask-image:radial-gradient(ellipse 90% 90% at 50% 50%,#000
+  60%,transparent 100%); }
 .card h3 { font-family:'Fraunces',serif; font-weight:500; margin-bottom:8px; }
 .card p { color:var(--muted); font-size:.92rem; }
 .promise { text-align:center; max-width:62ch; margin:0 auto; }
@@ -116,6 +119,9 @@ footer a:hover { color:var(--accent); }
     },
     {
       "@type": "SoftwareApplication",
+      "installUrl":
+      "https://play.google.com/store/apps/details?id=app.undersky&hl=pt_BR",
+      "sameAs": ["https://play.google.com/store/apps/details?id=app.undersky&hl=pt_BR"],
       "@id": "https://undersky.app/#app",
       "name": "Undersky",
       "applicationCategory": "LifestyleApplication",
@@ -126,9 +132,10 @@ footer a:hover { color:var(--accent); }
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "USD",
-        "description": "Horóscopo diário, mapa natal e resumo do ano gratuitos; uma pequena compra única para as leituras de relação; previsões opcionais ao minuto. Sem assinatura."
+        "description": "Horóscopo diário, mapa natal e uma primeira olhada no seu ano gratuitos; uma pequena compra única para as leituras de relação; previsões opcionais ao minuto. Sem assinatura."
       },
-      "inLanguage": ["en","ar","de","el","es-ES","es-MX","fa","fil","fr","he","hi","hu","hy","id","it","ja","ko","nl","pl","pt-BR","ru","sv","th","tr","uk","vi","zh-Hans","zh-Hant"],
+      "inLanguage":
+      ["en","ar","de","el","es-ES","es-MX","fa","fil","fr","he","hi","hu","hy","id","it","ja","ko","nl","pl","pt-BR","ru","sv","th","tr","uk","vi","zh-Hans","zh-Hant"],
       "featureList": "Mapa calculado no seu celular, leituras feitas sob medida para você, sinastria, atenção a eclipses e trânsitos, funciona offline, sem conta"
     }
   ]
@@ -242,7 +249,7 @@ footer a:hover { color:var(--accent); }
       sem rastreamento, sem assinaturas.</p>
       <div class="stores">
         <span class="badge soon">App Store</span>
-        <span class="badge soon">Google Play</span>
+        <a class="badge" href="https://play.google.com/store/apps/details?id=app.undersky&amp;hl=pt_BR">Google Play</a>
       </div>
       <div class="chips">
         <span class="chip">Sem cadastro</span>
@@ -251,7 +258,7 @@ footer a:hover { color:var(--accent); }
         <span class="chip">Funciona offline</span>
       </div>
     </div>
-    <img src="/img/sky-today.png" alt="O céu desta noite com as constelações de Câncer e Leão e o eclipse solar total de agosto de 2026">
+    <img src="/img/sky-today.png" alt="O céu desta noite com as constelações de Câncer e Leão e o eclipse solar total">
   </div>
 
   <section>
@@ -297,7 +304,8 @@ footer a:hover { color:var(--accent); }
   <section class="promise">
     <h2>Grátis todo dia. O resto, só se você quiser.</h2>
     <p>Seu horóscopo é grátis, todo dia, para sempre. Seu mapa natal e sua
-    leitura são grátis. O resumo do seu ano é grátis. Quando você quiser mais,
+    leitura são grátis. Uma primeira olhada no seu ano é grátis. Quando você
+    quiser mais,
     continua simples: as leituras de relação são uma pequena compra única que
     é sua para sempre, e cresce junto com a sua relação, não importa quantas
     voltas ao redor do sol ela dure. Previsões precisas, calculadas ao minuto,

@@ -52,6 +52,8 @@
 <meta name="twitter:title" content="Undersky : horoscope, thème natal et plus, en toute confidentialité">
 <meta name="twitter:description" content="Thème natal, horoscope du jour et synastrie, adaptés à toi et gardés sur ton téléphone. Pas de compte, pas de pistage, pas d'abonnement.">
 <meta name="twitter:image" content="https://undersky.app/img/sky-today.png">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="930">
 <link rel="stylesheet" href="/fonts.css">
 <style>
 :root { --bg:#160a05; --surface:#2a180c; --line:#4a3320; --text:#f0e7d6;
@@ -91,7 +93,8 @@ section { padding:54px 0; border-top:1px solid var(--line); }
   border-radius:16px; padding:24px; }
 .card img { width:84px; height:84px; object-fit:cover; border-radius:12px;
   float:right; margin:0 0 10px 14px;
-  -webkit-mask-image:radial-gradient(ellipse 90% 90% at 50% 50%,#000 60%,transparent 100%); }
+  -webkit-mask-image:radial-gradient(ellipse 90% 90% at 50% 50%,#000
+  60%,transparent 100%); }
 .card h3 { font-family:'Fraunces',serif; font-weight:500; margin-bottom:8px; }
 .card p { color:var(--muted); font-size:.92rem; }
 .promise { text-align:center; max-width:62ch; margin:0 auto; }
@@ -116,6 +119,8 @@ footer a:hover { color:var(--accent); }
     },
     {
       "@type": "SoftwareApplication",
+      "installUrl": "https://play.google.com/store/apps/details?id=app.undersky&hl=fr",
+      "sameAs": ["https://play.google.com/store/apps/details?id=app.undersky&hl=fr"],
       "@id": "https://undersky.app/#app",
       "name": "Undersky",
       "applicationCategory": "LifestyleApplication",
@@ -126,9 +131,10 @@ footer a:hover { color:var(--accent); }
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "USD",
-        "description": "Horoscope quotidien, thème natal et aperçu de l'année gratuits ; un petit achat unique pour les lectures de relation ; prévisions à la minute près en option. Pas d'abonnement."
+        "description": "Horoscope quotidien, thème natal et premier aperçu de ton année gratuits ; un petit achat unique pour les lectures de relation ; prévisions à la minute près en option. Pas d'abonnement."
       },
-      "inLanguage": ["en","ar","de","el","es-ES","es-MX","fa","fil","fr","he","hi","hu","hy","id","it","ja","ko","nl","pl","pt-BR","ru","sv","th","tr","uk","vi","zh-Hans","zh-Hant"],
+      "inLanguage":
+      ["en","ar","de","el","es-ES","es-MX","fa","fil","fr","he","hi","hu","hy","id","it","ja","ko","nl","pl","pt-BR","ru","sv","th","tr","uk","vi","zh-Hans","zh-Hant"],
       "featureList": "Thème calculé sur ton téléphone, lectures adaptées à toi, synastrie, connaissance des éclipses et des transits, fonctionne hors connexion, sans compte"
     }
   ]
@@ -242,7 +248,7 @@ footer a:hover { color:var(--accent); }
       Pas de compte, pas de pistage, pas d'abonnement.</p>
       <div class="stores">
         <span class="badge soon">App Store</span>
-        <span class="badge soon">Google Play</span>
+        <a class="badge" href="https://play.google.com/store/apps/details?id=app.undersky&amp;hl=fr">Google Play</a>
       </div>
       <div class="chips">
         <span class="chip">Pas d'inscription</span>
@@ -251,7 +257,7 @@ footer a:hover { color:var(--accent); }
         <span class="chip">Fonctionne hors connexion</span>
       </div>
     </div>
-    <img src="/img/sky-today.png" alt="Le ciel de ce soir montrant les constellations du Cancer et du Lion avec l'éclipse solaire totale d'août 2026">
+    <img src="/img/sky-today.png" alt="Le ciel de ce soir montrant les constellations du Cancer et du Lion avec l'éclipse solaire totale">
   </div>
 
   <section>
@@ -297,7 +303,7 @@ footer a:hover { color:var(--accent); }
   <section class="promise">
     <h2>Gratuit chaque jour. Le reste, seulement si tu le veux.</h2>
     <p>Ton horoscope est gratuit, chaque jour, pour toujours. Ton thème natal
-    et sa lecture sont gratuits. L'aperçu de ton année est gratuit. Quand tu
+    et sa lecture sont gratuits. Un premier aperçu de ton année est gratuit. Quand tu
     veux plus, cela reste simple : les lectures de relation sont un petit
     achat unique qui t'appartient pour de bon, et qui grandit avec ta
     relation, quel que soit le nombre de fois où elle fait le tour du Soleil.

@@ -1,6 +1,10 @@
 # Undersky
 
-> Undersky is a private astrology app for iPhone and Android. It computes your birth chart, your daily horoscope, an overview of your year, and relationship (synastry) readings. There is no account, no tracking, and no advertising, and your information stays on your phone and is never collected. There are no subscriptions. It is written in 26 languages. Published by Pacefyx, Inc. Launching August 2026.
+> Undersky is a private astrology app for iPhone and Android. It computes your birth chart, your daily horoscope, an overview of your year, and relationship (synastry) readings. There is no account, no tracking, and no advertising, and your information stays on your phone and is never collected. There are no subscriptions. It is written in 26 languages. Published by Pacefyx, Inc. Available on Google Play; the iPhone version is on its way to the App Store.
+
+## Where to get it
+- [Google Play](https://play.google.com/store/apps/details?id=app.undersky): available now
+- App Store: the iPhone version is on its way; no date is promised here
 
 ## Pages
 - [Home](https://undersky.app/): what Undersky is and why it is private by design
@@ -12,7 +16,7 @@
 
 ## Key facts
 - Private by design: no account, no tracking, no ads, and no developer server. Birth details, charts, and readings stay on the user's phone and are never collected. The App Store privacy label reads Data Not Collected.
-- Free: the daily horoscope, the natal chart and its reading, and the overview of the year are all free, every day.
+- Free: the daily horoscope, the natal chart and its reading, and a first look at your year (its one-line theme and the season that stands out) are all free, every day. The full multi-window year ahead is a one-time purchase.
 - Optional purchases, no subscriptions: relationship readings are a small one-time purchase that stays yours and grows as the relationship does; precise to-the-minute forecasts can be bought for planning.
 - Accurate astronomy: positions are computed with precise astronomy and checked against independent sources. Eclipses, retrogrades, and returns come from the real sky. The exact degrees are always available in Explore.
 - Relationship-aware and family-safe: every relationship has its own lens, and readings about children stay developmental, enforced by the app itself.

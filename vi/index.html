@@ -52,6 +52,8 @@
 <meta name="twitter:title" content="Undersky: bài đọc hằng ngày, bản đồ sao, và nhiều hơn nữa, hoàn toàn riêng tư">
 <meta name="twitter:description" content="Bản đồ sao, bài đọc hằng ngày và đối chiếu sao, dành riêng cho bạn và chỉ lưu trên điện thoại của bạn. Không cần tài khoản, không theo dõi, không thuê bao.">
 <meta name="twitter:image" content="https://undersky.app/img/sky-today.png">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="930">
 <link rel="stylesheet" href="/fonts.css">
 <style>
 :root { --bg:#160a05; --surface:#2a180c; --line:#4a3320; --text:#f0e7d6;
@@ -91,7 +93,8 @@ section { padding:54px 0; border-top:1px solid var(--line); }
   border-radius:16px; padding:24px; }
 .card img { width:84px; height:84px; object-fit:cover; border-radius:12px;
   float:right; margin:0 0 10px 14px;
-  -webkit-mask-image:radial-gradient(ellipse 90% 90% at 50% 50%,#000 60%,transparent 100%); }
+  -webkit-mask-image:radial-gradient(ellipse 90% 90% at 50% 50%,#000
+  60%,transparent 100%); }
 .card h3 { font-family:'Fraunces',serif; font-weight:500; margin-bottom:8px; }
 .card p { color:var(--muted); font-size:.92rem; }
 .promise { text-align:center; max-width:62ch; margin:0 auto; }
@@ -116,6 +119,8 @@ footer a:hover { color:var(--accent); }
     },
     {
       "@type": "SoftwareApplication",
+      "installUrl": "https://play.google.com/store/apps/details?id=app.undersky&hl=vi",
+      "sameAs": ["https://play.google.com/store/apps/details?id=app.undersky&hl=vi"],
       "@id": "https://undersky.app/#app",
       "name": "Undersky",
       "applicationCategory": "LifestyleApplication",
@@ -126,9 +131,10 @@ footer a:hover { color:var(--accent); }
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "USD",
-        "description": "Bài đọc hằng ngày, bản đồ sao và tổng quan năm đều miễn phí, bài đọc về mối quan hệ là một khoản mua nhỏ, một lần, dự báo chính xác đến từng phút là phần tùy chọn thêm. Không thuê bao."
+        "description": "Bài đọc hằng ngày, bản đồ sao và cái nhìn đầu tiên về năm đều miễn phí, bài đọc về mối quan hệ là một khoản mua nhỏ, một lần, dự báo chính xác đến từng phút là phần tùy chọn thêm. Không thuê bao."
       },
-      "inLanguage": ["en","ar","de","el","es-ES","es-MX","fa","fil","fr","he","hi","hu","hy","id","it","ja","ko","nl","pl","pt-BR","ru","sv","th","tr","uk","vi","zh-Hans","zh-Hant"],
+      "inLanguage":
+      ["en","ar","de","el","es-ES","es-MX","fa","fil","fr","he","hi","hu","hy","id","it","ja","ko","nl","pl","pt-BR","ru","sv","th","tr","uk","vi","zh-Hans","zh-Hant"],
       "featureList": "Chart computed on your phone, readings tailored to you, synastry, eclipse and transit awareness, works offline, no account"
     }
   ]
@@ -242,7 +248,7 @@ footer a:hover { color:var(--accent); }
       thuê bao.</p>
       <div class="stores">
         <span class="badge soon">App Store</span>
-        <span class="badge soon">Google Play</span>
+        <a class="badge" href="https://play.google.com/store/apps/details?id=app.undersky&amp;hl=vi">Google Play</a>
       </div>
       <div class="chips">
         <span class="chip">Không cần ghi danh</span>
@@ -251,7 +257,7 @@ footer a:hover { color:var(--accent); }
         <span class="chip">Dùng được khi ngoại tuyến</span>
       </div>
     </div>
-    <img src="/img/sky-today.png" alt="Bầu trời đêm nay với chòm sao Cự Giải và Sư Tử, cùng nhật thực toàn phần tháng 8 năm 2026">
+    <img src="/img/sky-today.png" alt="Bầu trời đêm nay với chòm sao Cự Giải và Sư Tử, cùng nhật thực toàn phần">
   </div>
 
   <section>
@@ -297,7 +303,7 @@ footer a:hover { color:var(--accent); }
   <section class="promise">
     <h2>Miễn phí mỗi ngày. Phần còn lại, chỉ khi bạn muốn.</h2>
     <p>Bài đọc hằng ngày của bạn miễn phí, mỗi ngày, mãi mãi. Bản đồ sao và
-    bài đọc của bạn miễn phí. Tổng quan năm của bạn cũng miễn phí. Khi bạn
+    bài đọc của bạn miễn phí. Cái nhìn đầu tiên về năm của bạn cũng miễn phí. Khi bạn
     muốn nhiều hơn, mọi thứ vẫn đơn giản: bài đọc về mối quan hệ là một
     khoản mua nhỏ, một lần, mãi mãi là của bạn, và lớn lên cùng mối quan hệ
     đó, dù nó kéo dài bao nhiêu vòng quanh mặt trời. Dự báo chính xác đến

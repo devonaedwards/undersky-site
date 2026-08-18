@@ -159,6 +159,34 @@
   <url><loc>https://undersky.app/credits.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
   </url>
   <url><loc>https://undersky.app/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
   </url>
   <url><loc>https://undersky.app/</loc><lastmod>2026-08-17</lastmod><priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
@@ -354,6 +382,36 @@
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
   </url>
+  <url><loc>https://undersky.app/ar/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
+  </url>
   <url><loc>https://undersky.app/ar/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/"/>
@@ -539,6 +597,36 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://undersky.app/vi/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
+  </url>
+  <url><loc>https://undersky.app/de/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
   </url>
   <url><loc>https://undersky.app/de/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
@@ -726,6 +814,36 @@
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
   </url>
+  <url><loc>https://undersky.app/el/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
+  </url>
   <url><loc>https://undersky.app/el/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/"/>
@@ -911,6 +1029,36 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://undersky.app/vi/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
+  </url>
+  <url><loc>https://undersky.app/es-es/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
   </url>
   <url><loc>https://undersky.app/es-es/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
@@ -1098,6 +1246,36 @@
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
   </url>
+  <url><loc>https://undersky.app/es-mx/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
+  </url>
   <url><loc>https://undersky.app/es-mx/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/"/>
@@ -1283,6 +1461,36 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://undersky.app/vi/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
+  </url>
+  <url><loc>https://undersky.app/fa/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
   </url>
   <url><loc>https://undersky.app/fa/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
@@ -1470,6 +1678,36 @@
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
   </url>
+  <url><loc>https://undersky.app/fil/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
+  </url>
   <url><loc>https://undersky.app/fil/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/"/>
@@ -1655,6 +1893,36 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://undersky.app/vi/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
+  </url>
+  <url><loc>https://undersky.app/fr/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
   </url>
   <url><loc>https://undersky.app/fr/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
@@ -1842,6 +2110,36 @@
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
   </url>
+  <url><loc>https://undersky.app/he/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
+  </url>
   <url><loc>https://undersky.app/he/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/"/>
@@ -2027,6 +2325,36 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://undersky.app/vi/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
+  </url>
+  <url><loc>https://undersky.app/hi/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
   </url>
   <url><loc>https://undersky.app/hi/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
@@ -2214,6 +2542,36 @@
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
   </url>
+  <url><loc>https://undersky.app/hu/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
+  </url>
   <url><loc>https://undersky.app/hu/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/"/>
@@ -2399,6 +2757,36 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://undersky.app/vi/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
+  </url>
+  <url><loc>https://undersky.app/hy/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
   </url>
   <url><loc>https://undersky.app/hy/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
@@ -2586,6 +2974,36 @@
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
   </url>
+  <url><loc>https://undersky.app/id/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
+  </url>
   <url><loc>https://undersky.app/id/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/"/>
@@ -2771,6 +3189,36 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://undersky.app/vi/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
+  </url>
+  <url><loc>https://undersky.app/it/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
   </url>
   <url><loc>https://undersky.app/it/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
@@ -2958,6 +3406,36 @@
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
   </url>
+  <url><loc>https://undersky.app/ja/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
+  </url>
   <url><loc>https://undersky.app/ja/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/"/>
@@ -3143,6 +3621,36 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://undersky.app/vi/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
+  </url>
+  <url><loc>https://undersky.app/ko/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
   </url>
   <url><loc>https://undersky.app/ko/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
@@ -3330,6 +3838,36 @@
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
   </url>
+  <url><loc>https://undersky.app/nl/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
+  </url>
   <url><loc>https://undersky.app/nl/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/"/>
@@ -3515,6 +4053,36 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://undersky.app/vi/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
+  </url>
+  <url><loc>https://undersky.app/pl/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
   </url>
   <url><loc>https://undersky.app/pl/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
@@ -3702,6 +4270,36 @@
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
   </url>
+  <url><loc>https://undersky.app/pt-br/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
+  </url>
   <url><loc>https://undersky.app/pt-br/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/"/>
@@ -3887,6 +4485,36 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://undersky.app/vi/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
+  </url>
+  <url><loc>https://undersky.app/ru/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
   </url>
   <url><loc>https://undersky.app/ru/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
@@ -4074,6 +4702,36 @@
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
   </url>
+  <url><loc>https://undersky.app/sv/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
+  </url>
   <url><loc>https://undersky.app/sv/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/"/>
@@ -4259,6 +4917,36 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://undersky.app/vi/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
+  </url>
+  <url><loc>https://undersky.app/th/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
   </url>
   <url><loc>https://undersky.app/th/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
@@ -4446,6 +5134,36 @@
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
   </url>
+  <url><loc>https://undersky.app/tr/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
+  </url>
   <url><loc>https://undersky.app/tr/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/"/>
@@ -4631,6 +5349,36 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://undersky.app/vi/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
+  </url>
+  <url><loc>https://undersky.app/uk/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
   </url>
   <url><loc>https://undersky.app/uk/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
@@ -5004,6 +5752,36 @@
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
   </url>
+  <url><loc>https://undersky.app/zh-hans/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
+  </url>
   <url><loc>https://undersky.app/zh-hans/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/"/>
@@ -5189,6 +5967,36 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://undersky.app/vi/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/co-star-alternatives.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/co-star-alternatives.html"/>
+  </url>
+  <url><loc>https://undersky.app/zh-hant/faq.html</loc><lastmod>2026-08-17</lastmod><priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://undersky.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://undersky.app/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://undersky.app/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://undersky.app/el/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://undersky.app/es-es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://undersky.app/es-mx/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://undersky.app/fa/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://undersky.app/fil/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://undersky.app/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://undersky.app/he/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://undersky.app/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://undersky.app/hu/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hy" href="https://undersky.app/hy/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://undersky.app/id/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://undersky.app/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://undersky.app/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://undersky.app/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://undersky.app/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://undersky.app/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://undersky.app/pt-br/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://undersky.app/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://undersky.app/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://undersky.app/th/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://undersky.app/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://undersky.app/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://undersky.app/zh-hans/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://undersky.app/zh-hant/faq.html"/>
   </url>
   <url><loc>https://undersky.app/zh-hant/</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://undersky.app/"/>
